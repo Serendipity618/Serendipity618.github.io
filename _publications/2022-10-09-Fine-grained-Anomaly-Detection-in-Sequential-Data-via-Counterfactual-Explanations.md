@@ -1,6 +1,6 @@
 ---
 title: "He Cheng, Depeng Xu, Shuhan Yuan, and Xintao Wu, \"Fine-grained Anomaly Detection in Sequential Data via Counterfactual Explanations
-\". "
+\"."
 collection: publications
 permalink: /publication/2022-10-09-Fine-grained-Anomaly-Detection-in-Sequential-Data-via-Counterfactual-Explanations
 date: 2022-10-09
