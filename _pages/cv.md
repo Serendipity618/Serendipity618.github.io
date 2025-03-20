@@ -8,6 +8,10 @@ redirect_from:
 
 {% include base_path %}
 
+Download CV
+[Download My CV](../assets/cv.pdf){:target="_blank"}  
+<a href="../assets/cv.pdf" class="btn btn-primary" target="_blank">Download My CV</a>
+
 Education
 ======
 * Ph.D. in Computer Science, Utah State University, 2024 (expected)
