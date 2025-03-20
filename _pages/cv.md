@@ -8,9 +8,9 @@ redirect_from:
 
 {% include base_path %}
 
-Download CV
-[Download My CV](../assets/cv.pdf){:target="_blank"}  
-<a href="../assets/cv.pdf" class="btn btn-primary" target="_blank">Download My CV</a>
+## Download CV
+📄 **[Download My CV (PDF)](../assets/cv.pdf){:target="_blank"}**
+
 
 Education
 ======
