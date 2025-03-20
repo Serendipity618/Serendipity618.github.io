@@ -8,7 +8,7 @@ redirect_from:
 
 {% include base_path %}
 
-## Download CV
+Download CV
 📄 **[Download My CV (PDF)](../assets/cv.pdf){:target="_blank"}**
 
 
