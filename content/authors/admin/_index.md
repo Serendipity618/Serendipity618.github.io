@@ -104,19 +104,23 @@ work:
 
 skills:
   - name: Technical Skills
+    color: '#4a90e2'
+    color_border: '#4a90e2'
     items:
-      - name: Python, PyTorch, TensorFlow
-        description: ''
+      - name: Programming & Tools
+        description: "Python, SQL, C/C++, Docker, Git, Linux, PyTorch, TensorFlow, NumPy, Pandas"
         percent: 95
         icon: code-bracket
-      - name: Machine Learning & Anomaly Detection
-        description: ''
-        percent: 100
-        icon: chart-bar
-      - name: Knowledge Graphs & Clinical NLP
-        description: ''
+
+      - name: Cloud & Databases
+        description: "AWS (EC2, S3, Lambda, SageMaker), GCP, PostgreSQL, MongoDB, SQLite"
         percent: 85
         icon: cloud
+
+      - name: Machine Learning & System Design
+        description: "Data preprocessing, feature engineering, hyperparameter tuning, distributed training (multi-GPU), explainable AI, model deployment (Flask, FastAPI, Docker), model optimization"
+        percent: 90
+        icon: chart-bar
   - name: Hobbies
     color: '#eeac02'
     color_border: '#f0bf23'
@@ -125,14 +129,16 @@ skills:
         description: ''
         percent: 80
         icon: person-simple-walk
+
       - name: Building Projects & Coding Tools
         description: ''
         percent: 90
         icon: cpu-chip
-      - name: Reading History & Sci-Fi
+
+      - name: Board Games & Strategy Games
         description: ''
         percent: 70
-        icon: book-open
+        icon: puzzle-piece
 
 languages:
   - name: English
@@ -148,14 +154,6 @@ awards:
     icon: hero/users
     summary: |
       Served as Volunteer Lead for IEEE Big Data 2024, supporting conference organization and logistics.
-
-  - title: Ph.D. Forum Participant
-    url: https://ieeebigdata.org/
-    date: '2024-12-17'
-    awarder: IEEE Big Data
-    icon: hero/academic-cap
-    summary: |
-      Selected to present research on anomaly detection and backdoor attacks at the IEEE Big Data Ph.D. Forum.
 
   - title: Doctoral Forum Travel Award ($1,000)
     url: https://www.siam.org/conferences/cm/conference/sdm24
@@ -182,4 +180,6 @@ awards:
       Awarded to support travel for academic conference participation.
 ---
 
-He Cheng is a Postdoctoral Researcher in the Department of Biomedical Informatics at the University of Colorado Anschutz Medical Campus, working with Prof. Yanjun Gao. His research focuses on interpretable anomaly detection, robustness against backdoor attacks, and biomedical knowledge graphs. He has published multiple first-author papers in top data mining and machine learning venues, and is currently developing LogosKG, a framework for efficient multi-hop knowledge graph retrieval. Beyond research, he enjoys hiking, coding new tools, and exploring the intersection of AI and healthcare.
+He Cheng, Ph.D., is a Postdoctoral Researcher in the Department of Biomedical Informatics at the University of Colorado Anschutz Medical Campus, working with Dr. Yanjun Gao. His current research centers on large language model reasoning, biomedical natural language processing (BioNLP), and knowledge graphs, and he is developing LogosKG, a framework for efficient multi-hop knowledge graph retrieval.
+
+Before that, he obtained his Ph.D. in Computer Science from Utah State University, where he conducted research on anomaly detection, explainability, and backdoor attacks in machine learning, publishing multiple first-author papers in top data mining and machine learning venues. He also holds an M.S. in Electrical and Computer Engineering from the State University of New York at Binghamton and a B.E. in Mechanical Engineering from the China University of Petroleum. Beyond research, he is passionate about applying AI to healthcare, and enjoys hiking, coding new tools, and exploring interdisciplinary applications of machine learning.
