@@ -44,7 +44,7 @@ profiles:
   - icon: academicons/orcid
     url: [https://orcid.org/0000-0003-2582-7419](https://orcid.org/my-orcid?orcid=0009-0009-6901-3778)
 
-research interests:
+research:
   - Large Language Models (LLMs)
   - Natural Language Processing (NLP)
   - Knowledge Graphs and Reasoning
