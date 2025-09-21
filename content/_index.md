@@ -34,11 +34,13 @@ sections:
       title: '📚 My Research'
       subtitle: ''
       text: |-
-        Use this area to speak to your mission. I'm a research scientist in the Moonshot team at DeepMind. I blog about machine learning, deep learning, and moonshots.
+        I am a Postdoctoral Researcher in the Department of Biomedical Informatics at the University of Colorado Anschutz Medical Campus, working with Dr. Yanjun Gao.  
 
-        I apply a range of qualitative and quantitative methods to comprehensively investigate the role of science and technology in the economy.
+        My current research focuses on **LLM reasoning**, **biomedical natural language processing (BioNLP)**, and **knowledge graphs**, with an emphasis on developing methods that enhance interpretability, robustness, and scalability.  
 
-        Please reach out to collaborate 😃
+        I am the lead developer of **LogosKG**, a framework for efficient multi-hop retrieval on large biomedical knowledge graphs, and I have also worked extensively on anomaly detection, including projects on **counterfactual explanations (CFDet)** and **backdoor attack/defense frameworks (BLOG, BA-OCAD, BadSAD)**.  
+
+        Beyond research, I enjoy hiking, coding new tools, and exploring interdisciplinary applications of AI in healthcare.  
     design:
       columns: '1'
   - block: collection
