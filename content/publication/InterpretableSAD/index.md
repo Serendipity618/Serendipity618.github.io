@@ -2,12 +2,7 @@
 title: "InterpretableSAD: Interpretable Anomaly Detection in Sequential Log Data"
 
 authors:
-  - Xiao Han
   - admin
-  - Depeng Xu
-  - Shuhan Yuan
-
-author_notes: []
 
 date: '2021-12-15T00:00:00Z'
 publishDate: '2021-12-15T00:00:00Z'
@@ -36,6 +31,8 @@ hugoblox:
 links:
   - type: pdf
     url: "https://doi.org/10.1109/BigData52589.2021.9671642"
+  - type: code
+    url: "https://github.com/hanxiao0607/InterpretableSAD"
 
 image:
   caption: "InterpretableSAD framework illustration"

@@ -2,16 +2,13 @@
 ---
 
 ### 📄 EASD (IJCNN 2023)
+
 ```markdown
 ---
 title: "Explainable Sequential Anomaly Detection via Prototypes (EASD)"
 
 authors:
   - admin
-  - Depeng Xu
-  - Shuhan Yuan
-
-author_notes: []
 
 date: '2023-06-18T00:00:00Z'
 publishDate: '2023-06-18T00:00:00Z'
@@ -40,6 +37,8 @@ hugoblox:
 links:
   - type: pdf
     url: "https://doi.org/10.1109/IJCNN54540.2023.10191703"
+  - type: code
+    url: "https://github.com/Serendipity618/EASD"
 
 image:
   caption: "EASD prototype framework illustration"

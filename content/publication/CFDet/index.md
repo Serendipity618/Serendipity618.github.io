@@ -1,13 +1,14 @@
+
+---
+
+### 📄 CFDet (ECML PKDD 2024)
+
+```markdown
 ---
 title: "Achieving Counterfactual Explanation for Sequence Anomaly Detection (CFDet)"
 
 authors:
   - admin
-  - Depeng Xu
-  - Shuhan Yuan
-  - Xintao Wu
-
-author_notes: []
 
 date: '2024-08-22T00:00:00Z'
 publishDate: '2024-08-22T00:00:00Z'
@@ -18,9 +19,9 @@ publication: In *European Conference on Machine Learning and Principles and Prac
 publication_short: In *ECML PKDD*
 
 abstract: |
-  We propose **CFDet**, a counterfactual explanation framework for sequence anomaly detection. CFDet identifies anomalous entries by generating minimal and plausible modifications that alter a model’s prediction from anomalous to normal, thereby exposing the underlying decision boundary. Experiments on BGL, Thunderbird, and CERT datasets demonstrate that CFDet produces high-fidelity explanations and consistently outperforms attention-based, Shapley value, and gradient-based baselines.
+  We propose **CFDet**, a counterfactual explanation framework for sequence anomaly detection. CFDet identifies anomalous entries by generating minimal and plausible modifications that alter a model’s prediction from anomalous to normal. Experiments on BGL, Thunderbird, and CERT datasets demonstrate that CFDet produces high-fidelity explanations and consistently outperforms attention-based, Shapley value, and gradient-based baselines.
 
-summary: "CFDet introduces counterfactual explanations for sequence anomaly detection, enabling fine-grained and interpretable insights into anomalous behavior."
+summary: "Counterfactual explanations for sequence anomaly detection, providing interpretable insights."
 
 tags:
   - Anomaly Detection
@@ -46,12 +47,6 @@ image:
 
 projects: []
 slides: ""
----
-
-{{% callout note %}}
-Click the _Cite_ button above to import the citation into your reference manager.
-{{% /callout %}}
-
 ---
 
 ### Citation

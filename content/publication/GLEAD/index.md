@@ -2,16 +2,13 @@
 ---
 
 ### 📄 GLEAD (Big Data 2022)
+
 ```markdown
 ---
 title: "Sequential Anomaly Detection with Local and Global Explanations (GLEAD)"
 
 authors:
   - admin
-  - Depeng Xu
-  - Shuhan Yuan
-
-author_notes: []
 
 date: '2022-12-17T00:00:00Z'
 publishDate: '2022-12-17T00:00:00Z'
@@ -22,9 +19,9 @@ publication: In *IEEE International Conference on Big Data (Big Data 2022)*
 publication_short: In *IEEE BigData*
 
 abstract: |
-  We propose **GLEAD**, a framework for sequential anomaly detection that provides both local explanations (highlighting anomalous subsequences) and global explanations (capturing dataset-wide patterns). This dual perspective improves transparency for practitioners while maintaining strong detection performance.
+  We propose **GLEAD**, a framework for sequential anomaly detection that provides both local explanations (highlighting anomalous subsequences) and global explanations (dataset-wide patterns). This dual perspective improves transparency for practitioners while maintaining strong detection performance.
 
-summary: "Framework for sequential anomaly detection with local and global explanations."
+summary: "Sequential anomaly detection with local and global explanations."
 
 tags:
   - Anomaly Detection

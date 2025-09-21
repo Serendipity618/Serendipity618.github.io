@@ -1,12 +1,14 @@
+
+---
+
+### 📄 Blog (WWW 2025)
+
+```markdown
 ---
 title: "Backdoor Attack against Log Anomaly Detection Models (Blog)"
 
 authors:
   - admin
-  - Depeng Xu
-  - Shuhan Yuan
-
-author_notes: []
 
 date: '2025-04-25T00:00:00Z'
 publishDate: '2025-04-25T00:00:00Z'
@@ -17,9 +19,9 @@ publication: In *Companion Proceedings of the ACM Web Conference 2025*
 publication_short: In *WWW 2025*
 
 abstract: |
-  We propose **Blog**, a backdoor attack framework targeting log anomaly detection models. Blog embeds carefully crafted triggers into training logs, enabling adversaries to manipulate model predictions at inference while preserving benign performance. Experiments reveal that state-of-the-art log anomaly detection systems are highly vulnerable to this attack, underscoring the need for more robust defenses.
+  We propose **Blog**, a backdoor attack framework targeting log anomaly detection models. Blog embeds carefully crafted triggers into training logs, enabling adversaries to manipulate predictions at inference while preserving benign performance. Experiments show that state-of-the-art log anomaly detection systems are highly vulnerable, underscoring the need for stronger defenses.
 
-summary: "Blog demonstrates how backdoor attacks compromise log anomaly detection models, highlighting vulnerabilities in widely used systems."
+summary: "Backdoor attack framework exposing vulnerabilities in log anomaly detection models."
 
 tags:
   - Anomaly Detection
@@ -36,21 +38,15 @@ links:
   - type: pdf
     url: "https://dl.acm.org/doi/10.1145/3701716.3715533"
   - type: code
-    url: "https://github.com/Serendipity618/Blog"
+    url: "https://github.com/Serendipity618/BLOG"
 
 image:
-  caption: "Blog framework illustration"
+  caption: "BLOG framework illustration"
   focal_point: ""
   preview_only: false
 
 projects: []
 slides: ""
----
-
-{{% callout note %}}
-Click the _Cite_ button above to import the citation into your reference manager.
-{{% /callout %}}
-
 ---
 
 ### Citation
