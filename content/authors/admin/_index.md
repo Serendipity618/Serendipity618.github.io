@@ -48,8 +48,8 @@ interests:
   - Large Language Models (LLMs)
   - Natural Language Processing (NLP)
   - Knowledge Graphs and Reasoning
-  - Interpretable and Explainable Machine Learning
-  - Robustness and Security against Backdoor Attacks
+  - Interpretable Machine Learning
+  - Model Robustness
 
 education:
   - area: Ph.D. Computer Science
