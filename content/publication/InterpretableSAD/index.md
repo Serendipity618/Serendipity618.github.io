@@ -30,11 +30,11 @@ featured: false
 
 hugoblox:
   ids:
-    doi: 10.1109/BigData52589.2021.9671642
+    doi: "https://ieeexplore.ieee.org/abstract/document/9671642/"
 
 links:
   - type: pdf
-    url: "https://doi.org/10.1109/BigData52589.2021.9671642"
+    url: "https://ieeexplore.ieee.org/iel7/9671263/9671273/09671642.pdf"
   - type: code
     url: "https://github.com/hanxiao0607/InterpretableSAD"
 

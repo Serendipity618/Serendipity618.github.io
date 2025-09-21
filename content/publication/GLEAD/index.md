@@ -28,11 +28,11 @@ featured: false
 
 hugoblox:
   ids:
-    doi: "10.1109/BigData55660.2022.10020990"
+    doi: "https://ieeexplore.ieee.org/abstract/document/10020990/"
 
 links:
   - type: pdf
-    url: "https://doi.org/10.1109/BigData55660.2022.10020990"
+    url: "https://ieeexplore.ieee.org/iel7/10020192/10020156/10020990.pdf"
   - type: code
     url: "https://github.com/Serendipity618/GLEAD"
 

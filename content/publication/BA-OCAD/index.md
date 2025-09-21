@@ -28,11 +28,11 @@ featured: false
 
 hugoblox:
   ids:
-    doi: "10.1007/978-981-97-2211-9_28"
+    doi: "https://link.springer.com/chapter/10.1007/978-981-97-2259-4_20"
 
 links:
   - type: pdf
-    url: "https://doi.org/10.1007/978-981-97-2211-9_28"
+    url: "https://arxiv.org/pdf/2402.10283"
   - type: code
     url: "https://github.com/Serendipity618/BA-OCAD"
 
