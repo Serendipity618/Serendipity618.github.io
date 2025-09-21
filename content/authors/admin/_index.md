@@ -1,13 +1,13 @@
 ---
 # Display name
-title: Alex Johnson
+title: He Cheng
 
 # Name pronunciation (optional)
-name_pronunciation: ''
+name_pronunciation: 'Huh Chung'
 
 # Full name (for SEO)
-first_name: Alex
-last_name: Johnson
+first_name: He
+last_name: Cheng
 
 # Pronouns (optional)
 pronouns: he/him
@@ -23,95 +23,93 @@ superuser: true
 highlight_name: true
 
 # Role/position/tagline
-role: Senior AI Research Scientist
+role: Postdoctoral Researcher in Biomedical Informatics
 
 # Organizations/Affiliations to display in Biography blox
 organizations:
-  - name: Meta AI
-    url: https://ai.meta.com/
+  - name: University of Colorado Anschutz Medical Campus
+    url: https://medschool.cuanschutz.edu/dbmi
 
 # Social network links
-# Need to use another icon? Simply download the SVG icon to your `assets/media/icons/` folder.
 profiles:
   - icon: at-symbol
-    url: 'mailto:alex.johnson@meta.com'
+    url: 'mailto:he.2.cheng@cuanschutz.edu'
     label: E-mail Me
-  - icon: brands/x
-    url: https://twitter.com/AlexAIResearch
   - icon: brands/github
-    url: https://github.com/alexjohnsonai
+    url: https://github.com/Serendipity618
   - icon: brands/linkedin
-    url: https://www.linkedin.com/in/alexjohnsonai/
+    url: https://www.linkedin.com/in/hecheng618/
   - icon: academicons/google-scholar
-    url: https://scholar.google.com/citations?user=alexjohnson
+    url: https://scholar.google.com/citations?user=CNj4xTAAAAAJ
   - icon: academicons/orcid
-    url: https://orcid.org/0000-0002-1825-0097
+    url: https://orcid.org/0000-0003-2582-7419
 
 interests:
-  - Large Language Models
-  - Computer Vision
-  - Reinforcement Learning
-  - AI Ethics
+  - Anomaly Detection
+  - Interpretable Machine Learning
+  - Backdoor Attacks & Robustness
+  - Clinical NLP
+  - Knowledge Graphs
 
 education:
-  - area: PhD Computer Science (AI Focus)
-    institution: Stanford University
-    date_start: 2015-09-01
-    date_end: 2019-06-30
+  - area: PhD Computer Science
+    institution: Utah State University
+    date_start: 2020-08-01
+    date_end: 2024-12-31
     summary: |
-      Thesis on _Scaling Laws for Neural Language Models_. Supervised by Prof. Andrew Ng. Published 5 papers in NeurIPS and ICML, with 2 best paper awards.
-    button:
-      text: 'Read Thesis'
-      url: 'https://example.com/thesis.pdf'
-  - area: MS Computer Science
-    institution: Carnegie Mellon University
-    date_start: 2013-09-01
-    date_end: 2015-05-31
+      Dissertation on interpretable and robust anomaly detection, with focus on backdoor attacks against anomaly detection models. Supervised by Prof. Shuhan Yuan.
+  - area: MS Electrical & Computer Engineering
+    institution: State University of New York at Binghamton
+    date_start: 2018-08-01
+    date_end: 2020-05-31
     summary: |
-      GPA: 4.0/4.0
-
-      Specialized in machine learning and robotics.
-  - area: BS Computer Science
-    institution: MIT
-    date_start: 2009-09-01
-    date_end: 2013-05-31
+      Specialized in anomaly detection and data mining.
+  - area: BE Mechanical Engineering
+    institution: China University of Petroleum
+    date_start: 2012-09-01
+    date_end: 2016-06-30
     summary: |
-      GPA: 3.9/4.0
-
-      Minored in Mathematics. President of AI Club.
+      Undergraduate research in engineering and applied computing.
 
 work:
-  - position: Senior AI Research Scientist
-    company_name: Meta AI
-    company_url: 'https://ai.meta.com/'
+  - position: Postdoctoral Researcher
+    company_name: University of Colorado Anschutz Medical Campus
+    company_url: 'https://medschool.cuanschutz.edu/dbmi'
     company_logo: ''
-    date_start: 2020-01-01
+    date_start: 2025-07-01
     date_end: ''
     summary: |2-
-      Leading research on multimodal AI systems. Contributed to Llama 2 and other open-source models. 50+ citations in 3 years.
-  - position: AI Research Intern
-    company_name: OpenAI
-    company_url: 'https://openai.com/'
+      Working in the Department of Biomedical Informatics with Prof. Yanjun Gao.
+      Research focus: large biomedical knowledge graphs, clinical NLP, and LLM alignment.
+  - position: Graduate Research Assistant
+    company_name: Utah State University
+    company_url: 'https://www.usu.edu/'
     company_logo: ''
-    date_start: 2019-06-01
-    date_end: 2019-12-31
+    date_start: 2020-08-01
+    date_end: 2024-12-31
     summary: |
-      Worked on GPT-3 scaling. Co-authored paper on prompt engineering.
+      Conducted research on anomaly detection, interpretability, and robustness against backdoor attacks. Published multiple papers in ECML PKDD, PAKDD, IJCNN, IEEE Big Data, etc.
+  - position: Graduate Research Assistant
+    company_name: State University of New York at Binghamton
+    company_url: 'https://www.binghamton.edu/'
+    company_logo: ''
+    date_start: 2018-08-01
+    date_end: 2020-05-31
+    summary: |
+      Focused on anomaly detection and early research in interpretable ML.
 
-# Skills
-# Add your own SVG icons to `assets/media/icons/`
 skills:
   - name: Technical Skills
     items:
-      - name: Python & PyTorch
+      - name: Python, PyTorch, TensorFlow
         description: ''
         percent: 95
         icon: code-bracket
-      - name: Machine Learning
+      - name: Machine Learning & Anomaly Detection
         description: ''
         percent: 100
         icon: chart-bar
-      - name: Cloud Computing (AWS/GCP)
+      - name: Knowledge Graphs & Clinical NLP
         description: ''
         percent: 85
         icon: cloud
@@ -119,15 +117,15 @@ skills:
     color: '#eeac02'
     color_border: '#f0bf23'
     items:
-      - name: Hiking in the Rockies
+      - name: Hiking & Exploring Nature
         description: ''
         percent: 80
         icon: person-simple-walk
-      - name: Building Custom PCs
+      - name: Building Projects & Coding Tools
         description: ''
         percent: 90
         icon: cpu-chip
-      - name: Sci-Fi Reading
+      - name: Reading History & Sci-Fi
         description: ''
         percent: 70
         icon: book-open
@@ -135,35 +133,17 @@ skills:
 languages:
   - name: English
     percent: 100
-  - name: Spanish
-    percent: 50
+  - name: Chinese (Mandarin)
+    percent: 100
 
-# Awards.
-#   Add/remove as many awards below as you like.
-#   Only `title`, `awarder`, and `date` are required.
-#   Begin multi-line `summary` with YAML's `|` or `|2-` multi-line prefix and indent 2 spaces below.
 awards:
-  - title: Best Paper Award
-    url: https://neurips.cc/
-    date: '2022-12-01'
-    awarder: NeurIPS
-    icon: hero/trophy
-    summary: |
-      Awarded for groundbreaking work on efficient training of large models.
-  - title: AI Innovation Grant
-    url: https://www.nsf.gov/
-    date: '2021-06-15'
-    awarder: National Science Foundation
-    icon: hero/currency-dollar
-    summary: |
-      $500,000 grant for research in ethical AI development.
-  - title: Outstanding PhD Thesis
-    url: https://www.stanford.edu/
-    date: '2019-06-30'
-    awarder: Stanford University
+  - title: Ph.D. Forum Participant
+    url: https://ieeebigdata.org/
+    date: '2024-12-17'
+    awarder: IEEE Big Data
     icon: hero/academic-cap
     summary: |
-      Recognized for contributions to scaling laws in deep learning.
+      Selected to present research on anomaly detection and backdoor attacks at the IEEE Big Data Ph.D. Forum.
 ---
 
-Alex Johnson is a Senior AI Research Scientist at Meta AI, where he leads groundbreaking work on large language models and multimodal systems. His research has been published in top conferences like NeurIPS and ICML, with over 10,000 citations. Alex is passionate about pushing the boundaries of AI while ensuring ethical development. Outside of work, he enjoys hiking in the Rockies, building custom PCs, and mentoring the next generation of AI talent.
+He Cheng is a Postdoctoral Researcher in the Department of Biomedical Informatics at the University of Colorado Anschutz Medical Campus, working with Prof. Yanjun Gao. His research focuses on interpretable anomaly detection, robustness against backdoor attacks, and biomedical knowledge graphs. He has published multiple first-author papers in top data mining and machine learning venues, and is currently developing LogosKG, a framework for efficient multi-hop knowledge graph retrieval. Beyond research, he enjoys hiking, coding new tools, and exploring the intersection of AI and healthcare.
