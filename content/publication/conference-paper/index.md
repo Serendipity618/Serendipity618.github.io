@@ -1,92 +1,70 @@
 ---
-title: 'An example conference paper'
+title: "Achieving Counterfactual Explanation for Sequence Anomaly Detection (CFDet)"
 
-# Authors
-# If you created a profile for a user (e.g. the default `admin` user), write the username (folder name) here
-# and it will be replaced with their full name and linked to their profile.
 authors:
   - admin
-  - Robert Ford
+  - Depeng Xu
+  - Shuhan Yuan
+  - Xintao Wu
 
-# Author notes (optional)
-author_notes:
-  - 'Equal contribution'
-  - 'Equal contribution'
+author_notes: []
 
-date: '2013-07-01T00:00:00Z'
+date: '2024-08-22T00:00:00Z'
+publishDate: '2024-08-22T00:00:00Z'
 
-# Schedule page publish date (NOT publication's date).
-publishDate: '2017-01-01T00:00:00Z'
-
-# Publication type.
-# Accepts a single type but formatted as a YAML list (for Hugo requirements).
-# Enter a publication type from the CSL standard.
 publication_types: ['paper-conference']
 
-# Publication name and optional abbreviated publication name.
-publication: In *Hugo Blox Builder Conference*
-publication_short: In *ICW*
+publication: In *European Conference on Machine Learning and Principles and Practice of Knowledge Discovery in Databases (ECML PKDD 2024)*
+publication_short: In *ECML PKDD*
 
-abstract: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis posuere tellus ac convallis placerat. Proin tincidunt magna sed ex sollicitudin condimentum. Sed ac faucibus dolor, scelerisque sollicitudin nisi. Cras purus urna, suscipit quis sapien eu, pulvinar tempor diam. Quisque risus orci, mollis id ante sit amet, gravida egestas nisl. Sed ac tempus magna. Proin in dui enim. Donec condimentum, sem id dapibus fringilla, tellus enim condimentum arcu, nec volutpat est felis vel metus. Vestibulum sit amet erat at nulla eleifend gravida.
+abstract: |
+  We propose **CFDet**, a counterfactual explanation framework for sequence anomaly detection. CFDet identifies anomalous entries by generating minimal and plausible modifications that alter a model’s prediction from anomalous to normal, thereby exposing the underlying decision boundary. Experiments on BGL, Thunderbird, and CERT datasets demonstrate that CFDet produces high-fidelity explanations and consistently outperforms attention-based, Shapley value, and gradient-based baselines.
 
-# Summary. An optional shortened abstract.
-summary: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis posuere tellus ac convallis placerat. Proin tincidunt magna sed ex sollicitudin condimentum.
+summary: "CFDet introduces counterfactual explanations for sequence anomaly detection, enabling fine-grained and interpretable insights into anomalous behavior."
 
 tags:
-  - Large Language Models
+  - Anomaly Detection
+  - Counterfactual Explanation
+  - Sequence Modeling
 
-# Display this page in the Featured widget?
 featured: true
 
-# Standard identifiers for auto-linking
 hugoblox:
   ids:
-    doi: 10.5555/123456
+    doi: 10.1007/978-3-031-70371-3_2
 
-# Custom links
 links:
   - type: pdf
-    url: ""
+    url: "https://link.springer.com/chapter/10.1007/978-3-031-70371-3_2"
   - type: code
-    url: https://github.com/HugoBlox/hugo-blox-builder
-  - type: dataset
-    url: https://github.com/HugoBlox/hugo-blox-builder
-  - type: slides
-    url: https://www.slideshare.net/
-  - type: source
-    url: https://github.com/HugoBlox/hugo-blox-builder
-  - type: video
-    url: https://youtube.com
+    url: "https://github.com/Serendipity618/CFDet"
 
-# Featured image
-# To use, add an image named `featured.jpg/png` to your page's folder.
 image:
-  caption: 'Image credit: [**Unsplash**](https://unsplash.com/photos/pLCdAaMFLTE)'
-  focal_point: ''
+  caption: "CFDet framework illustration"
+  focal_point: ""
   preview_only: false
 
-# Associated Projects (optional).
-#   Associate this publication with one or more of your projects.
-#   Simply enter your project's folder or file name without extension.
-#   E.g. `internal-project` references `content/project/internal-project/index.md`.
-#   Otherwise, set `projects: []`.
-projects:
-  - example
-
-# Slides (optional).
-#   Associate this publication with Markdown slides.
-#   Simply enter your slide deck's filename without extension.
-#   E.g. `slides: "example"` references `content/slides/example/index.md`.
-#   Otherwise, set `slides: ""`.
+projects: []
 slides: ""
 ---
 
 {{% callout note %}}
-Click the _Cite_ button above to demo the feature to enable visitors to import publication metadata into their reference management software.
+Click the _Cite_ button above to import the citation into your reference manager.
 {{% /callout %}}
 
-{{% callout note %}}
-Create your slides in Markdown - click the _Slides_ button to check out the example.
-{{% /callout %}}
+---
 
-Add the publication's **full text** or **supplementary notes** here. You can use rich formatting such as including [code, math, and images](https://docs.hugoblox.com/content/writing-markdown-latex/).
+### Citation
+
+```bibtex
+@inproceedings{cheng2024cfdet,
+  title     = {Achieving Counterfactual Explanation for Sequence Anomaly Detection},
+  author    = {Cheng, He and Xu, Depeng and Yuan, Shuhan and Wu, Xintao},
+  booktitle = {Machine Learning and Knowledge Discovery in Databases. Research Track (ECML PKDD 2024)},
+  series    = {Lecture Notes in Artificial Intelligence},
+  volume    = {14948},
+  pages     = {19--35},
+  publisher = {Springer},
+  year      = {2024},
+  doi       = {10.1007/978-3-031-70371-3_2}
+}

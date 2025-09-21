@@ -1,5 +1,5 @@
 ---
-title: "Backdoor Attack Against One-Class Sequential Anomaly Detection Models"
+title: "Backdoor Attack Against One-Class Sequential Anomaly Detection Models (BA-OCAD)"
 date: 2024-04-25
 links:
   - type: publication
