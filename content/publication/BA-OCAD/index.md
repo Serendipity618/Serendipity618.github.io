@@ -1,22 +1,16 @@
-
----
-
-### 📄 BA-OCAD (PAKDD 2024)
-
-```markdown
 ---
 title: "Backdoor Attack Against One-Class Sequential Anomaly Detection Models (BA-OCAD)"
 
 authors:
   - admin
 
-date: '2024-04-25T00:00:00Z'
-publishDate: '2024-04-25T00:00:00Z'
+date: "2024-04-25T00:00:00Z"
+publishDate: "2024-04-25T00:00:00Z"
 
-publication_types: ['paper-conference']
+publication_types: ["paper-conference"]
 
-publication: In *Pacific-Asia Conference on Knowledge Discovery and Data Mining (PAKDD 2024)*
-publication_short: In *PAKDD*
+publication: "In *Pacific-Asia Conference on Knowledge Discovery and Data Mining (PAKDD 2024)*"
+publication_short: "In *PAKDD*"
 
 abstract: |
   We propose **BA-OCAD**, a clean-label backdoor attack framework targeting one-class sequential anomaly detection models. By injecting stealthy triggers into training data, BA-OCAD enables adversaries to mislead anomaly detectors at inference while maintaining benign performance.
@@ -32,7 +26,7 @@ featured: false
 
 hugoblox:
   ids:
-    doi: 10.1007/978-981-97-2211-9_28
+    doi: "10.1007/978-981-97-2211-9_28"
 
 links:
   - type: pdf
@@ -52,11 +46,12 @@ slides: ""
 ### Citation
 
 ```bibtex
-@inproceedings{cheng2024backdoor,
-  title={Backdoor attack against one-class sequential anomaly detection models},
-  author={Cheng, He and Yuan, Shuhan},
-  booktitle={Pacific-Asia Conference on Knowledge Discovery and Data Mining},
-  pages={262--274},
-  year={2024},
-  organization={Springer}
+@inproceedings{cheng2024baocad,
+  title     = {Backdoor Attack Against One-Class Sequential Anomaly Detection Models},
+  author    = {Cheng, He and Yuan, Shuhan},
+  booktitle = {Pacific-Asia Conference on Knowledge Discovery and Data Mining (PAKDD)},
+  pages     = {401--413},
+  publisher = {Springer},
+  year      = {2024},
+  doi       = {10.1007/978-981-97-2211-9_28}
 }
