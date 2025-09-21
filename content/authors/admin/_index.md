@@ -44,7 +44,7 @@ profiles:
   - icon: academicons/orcid
     url: https://orcid.org/my-orcid?orcid=0009-0009-6901-3778
 
-research:
+interests:
   - Large Language Models (LLMs)
   - Natural Language Processing (NLP)
   - Knowledge Graphs and Reasoning
@@ -52,21 +52,21 @@ research:
   - Robustness and Security against Backdoor Attacks
 
 education:
-  - area: PhD Computer Science
+  - area: Ph.D. Computer Science
     institution: Utah State University
     date_start: 2020-08-23
     date_end: 2024-12-15
     summary: |
       Dissertation on interpretable and robust anomaly detection, with emphasis on model transparency and security against backdoor attacks. Supervised by Dr. Shuhan Yuan.
 
-  - area: MS Electrical & Computer Engineering
+  - area: M.S. Electrical & Computer Engineering
     institution: State University of New York at Binghamton
     date_start: 2018-08-27
     date_end: 2020-05-15
     summary: |
       Specialized in anomaly detection and data mining.
     
-  - area: BE Mechanical Engineering
+  - area: B.E. Mechanical Engineering
     institution: China University of Petroleum
     date_start: 2012-09-01
     date_end: 2016-06-30
