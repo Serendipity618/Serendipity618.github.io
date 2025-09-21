@@ -28,7 +28,7 @@ featured: false
 
 hugoblox:
   ids:
-    doi: "https://link.springer.com/chapter/10.1007/978-981-97-2259-4_20"
+    doi: "10.1007/978-981-97-2259-4_20"
 
 links:
   - type: pdf

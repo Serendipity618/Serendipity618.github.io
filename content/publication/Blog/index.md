@@ -28,7 +28,7 @@ featured: true
 
 hugoblox:
   ids:
-    doi: "https://dl.acm.org/doi/abs/10.1145/3701716.3715533"
+    doi: "10.1145/3701716.3715533"
 
 links:
   - type: pdf

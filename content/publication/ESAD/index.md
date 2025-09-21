@@ -28,7 +28,7 @@ featured: false
 
 hugoblox:
   ids:
-    doi: "https://ieeexplore.ieee.org/abstract/document/10191703/"
+    doi: "10.1109/IJCNN54540.2023.10191703"
 
 links:
   - type: pdf

@@ -30,7 +30,7 @@ featured: false
 
 hugoblox:
   ids:
-    doi: "https://ieeexplore.ieee.org/abstract/document/9671642/"
+    doi: "10.1109/BigData52589.2021.9671642"
 
 links:
   - type: pdf

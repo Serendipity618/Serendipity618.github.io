@@ -28,7 +28,7 @@ featured: false
 
 hugoblox:
   ids:
-    doi: "https://ieeexplore.ieee.org/abstract/document/10020990/"
+    doi: "10.1109/BigData55660.2022.10020990"
 
 links:
   - type: pdf

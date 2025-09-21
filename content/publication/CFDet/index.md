@@ -29,7 +29,7 @@ featured: true
 
 hugoblox:
   ids:
-    doi: "https://link.springer.com/chapter/10.1007/978-3-031-70371-3_2"
+    doi: "10.1007/978-3-031-70371-3_2"
 
 links:
   - type: pdf
