@@ -35,7 +35,7 @@ hugoblox:
 
 links:
   - type: pdf
-    url: "https://link.springer.com/chapter/10.1007/978-3-031-70371-3_2"
+    url: "https://par.nsf.gov/servlets/purl/10579795"
   - type: code
     url: "https://github.com/Serendipity618/CFDet"
 
