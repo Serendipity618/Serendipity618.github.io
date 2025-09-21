@@ -38,11 +38,11 @@ profiles:
   - icon: brands/github
     url: https://github.com/Serendipity618
   - icon: brands/linkedin
-    url: [https://www.linkedin.com/in/hecheng618/](https://www.linkedin.com/in/he-cheng-b49b71183/)
+    url: https://www.linkedin.com/in/he-cheng-b49b71183
   - icon: academicons/google-scholar
-    url: [https://scholar.google.com/citations?user=CNj4xTAAAAAJ](https://scholar.google.com/citations?user=zqYwQ5UAAAAJ&hl=en)
+    url: https://scholar.google.com/citations?user=zqYwQ5UAAAAJ&hl=en
   - icon: academicons/orcid
-    url: [https://orcid.org/0000-0003-2582-7419](https://orcid.org/my-orcid?orcid=0009-0009-6901-3778)
+    url: https://orcid.org/my-orcid?orcid=0009-0009-6901-3778
 
 research:
   - Large Language Models (LLMs)
