@@ -38,32 +38,34 @@ profiles:
   - icon: brands/github
     url: https://github.com/Serendipity618
   - icon: brands/linkedin
-    url: https://www.linkedin.com/in/hecheng618/
+    url: [https://www.linkedin.com/in/hecheng618/](https://www.linkedin.com/in/he-cheng-b49b71183/)
   - icon: academicons/google-scholar
-    url: https://scholar.google.com/citations?user=CNj4xTAAAAAJ
+    url: [https://scholar.google.com/citations?user=CNj4xTAAAAAJ](https://scholar.google.com/citations?user=zqYwQ5UAAAAJ&hl=en)
   - icon: academicons/orcid
-    url: https://orcid.org/0000-0003-2582-7419
+    url: [https://orcid.org/0000-0003-2582-7419](https://orcid.org/my-orcid?orcid=0009-0009-6901-3778)
 
-interests:
-  - Anomaly Detection
-  - Interpretable Machine Learning
-  - Backdoor Attacks & Robustness
-  - Clinical NLP
-  - Knowledge Graphs
+research interests:
+  - Large Language Models (LLMs)
+  - Natural Language Processing (NLP)
+  - Knowledge Graphs and Reasoning
+  - Interpretable and Explainable Machine Learning
+  - Robustness and Security against Backdoor Attacks
 
 education:
   - area: PhD Computer Science
     institution: Utah State University
-    date_start: 2020-08-01
-    date_end: 2024-12-31
+    date_start: 2020-08-23
+    date_end: 2024-12-15
     summary: |
-      Dissertation on interpretable and robust anomaly detection, with focus on backdoor attacks against anomaly detection models. Supervised by Prof. Shuhan Yuan.
+      Dissertation on interpretable and robust anomaly detection, with emphasis on model transparency and security against backdoor attacks. Supervised by Dr. Shuhan Yuan.
+
   - area: MS Electrical & Computer Engineering
     institution: State University of New York at Binghamton
-    date_start: 2018-08-01
-    date_end: 2020-05-31
+    date_start: 2018-08-27
+    date_end: 2020-05-15
     summary: |
       Specialized in anomaly detection and data mining.
+    
   - area: BE Mechanical Engineering
     institution: China University of Petroleum
     date_start: 2012-09-01
@@ -79,24 +81,26 @@ work:
     date_start: 2025-07-01
     date_end: ''
     summary: |2-
-      Working in the Department of Biomedical Informatics with Prof. Yanjun Gao.
-      Research focus: large biomedical knowledge graphs, clinical NLP, and LLM alignment.
+      Working in the Department of Biomedical Informatics with Dr. Yanjun Gao.
+      Research focus: large biomedical knowledge graphs, clinical NLP, and LLM reasoning.
+    
   - position: Graduate Research Assistant
     company_name: Utah State University
     company_url: 'https://www.usu.edu/'
     company_logo: ''
-    date_start: 2020-08-01
-    date_end: 2024-12-31
+    date_start: 2020-08-23
+    date_end: 2025-06-30
     summary: |
-      Conducted research on anomaly detection, interpretability, and robustness against backdoor attacks. Published multiple papers in ECML PKDD, PAKDD, IJCNN, IEEE Big Data, etc.
+      Conducted research on anomaly detection, interpretable machine learning, and robustness against backdoor attacks. Published multiple papers in ECML PKDD, PAKDD, IJCNN, IEEE Big Data, etc.
+    
   - position: Graduate Research Assistant
-    company_name: State University of New York at Binghamton
-    company_url: 'https://www.binghamton.edu/'
+    company_name: Utah State University
+    company_url: 'https://www.usu.edu/'
     company_logo: ''
-    date_start: 2018-08-01
-    date_end: 2020-05-31
+    date_start: 2019-08-27
+    date_end: 2024-12-15
     summary: |
-      Focused on anomaly detection and early research in interpretable ML.
+      Assisted in teaching & grading for: CS 5665 - Introduction to Data Science, CS 5080 / CS 6665 - Data Mining
 
 skills:
   - name: Technical Skills
@@ -132,11 +136,19 @@ skills:
 
 languages:
   - name: English
-    percent: 100
+    percent: 90
   - name: Chinese (Mandarin)
     percent: 100
 
 awards:
+  - title: IEEE Big Data 2024 Volunteer Lead
+    url: https://ieeebigdata.org/
+    date: '2024-12-01'
+    awarder: IEEE Big Data
+    icon: hero/users
+    summary: |
+      Served as Volunteer Lead for IEEE Big Data 2024, supporting conference organization and logistics.
+
   - title: Ph.D. Forum Participant
     url: https://ieeebigdata.org/
     date: '2024-12-17'
@@ -144,6 +156,30 @@ awards:
     icon: hero/academic-cap
     summary: |
       Selected to present research on anomaly detection and backdoor attacks at the IEEE Big Data Ph.D. Forum.
+
+  - title: Doctoral Forum Travel Award ($1,000)
+    url: https://www.siam.org/conferences/cm/conference/sdm24
+    date: '2024-04-30'
+    awarder: SIAM SDM 2024
+    icon: hero/currency-dollar
+    summary: |
+      Received $1,000 travel award to attend and present at the SDM 2024 Doctoral Forum.
+
+  - title: Graduate Student Travel Award
+    url: https://www.usu.edu/
+    date: '2023-05-01'
+    awarder: Utah State University
+    icon: hero/academic-cap
+    summary: |
+      Awarded to support travel for academic conference participation.
+
+  - title: Graduate Student Travel Award
+    url: https://www.usu.edu/
+    date: '2022-05-01'
+    awarder: Utah State University
+    icon: hero/academic-cap
+    summary: |
+      Awarded to support travel for academic conference participation.
 ---
 
 He Cheng is a Postdoctoral Researcher in the Department of Biomedical Informatics at the University of Colorado Anschutz Medical Campus, working with Prof. Yanjun Gao. His research focuses on interpretable anomaly detection, robustness against backdoor attacks, and biomedical knowledge graphs. He has published multiple first-author papers in top data mining and machine learning venues, and is currently developing LogosKG, a framework for efficient multi-hop knowledge graph retrieval. Beyond research, he enjoys hiking, coding new tools, and exploring the intersection of AI and healthcare.
