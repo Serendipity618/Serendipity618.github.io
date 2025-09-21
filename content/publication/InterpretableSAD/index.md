@@ -2,7 +2,11 @@
 title: "InterpretableSAD: Interpretable Anomaly Detection in Sequential Log Data"
 
 authors:
+  - Xiao Han
   - admin
+  - Depeng Xu
+  - Shuhan Yuan
+
 
 date: '2021-12-15T00:00:00Z'
 publishDate: '2021-12-15T00:00:00Z'
@@ -46,12 +50,11 @@ slides: ""
 ### Citation
 
 ```bibtex
-@inproceedings{cheng2021interpretable,
-  title     = {InterpretableSAD: Interpretable Anomaly Detection in Sequential Log Data},
-  author    = {Han, Xiao and Cheng, He and Xu, Depeng and Yuan, Shuhan},
-  booktitle = {2021 IEEE International Conference on Big Data (Big Data)},
-  pages     = {2911--2919},
-  publisher = {IEEE},
-  year      = {2021},
-  doi       = {10.1109/BigData52589.2021.9671642}
+@inproceedings{han2021interpretablesad,
+  title={InterpretableSAD: Interpretable anomaly detection in sequential log data},
+  author={Han, Xiao and Cheng, He and Xu, Depeng and Yuan, Shuhan},
+  booktitle={2021 IEEE International Conference on Big Data (Big Data)},
+  pages={1183--1192},
+  year={2021},
+  organization={IEEE}
 }

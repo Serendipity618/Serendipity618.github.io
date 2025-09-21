@@ -3,6 +3,8 @@ title: "Backdoor Attack against Log Anomaly Detection Models"
 
 authors:
   - admin
+  - Depeng Xu
+  - Shuhan Yuan
 
 date: "2025-04-25T00:00:00Z"
 publishDate: "2025-04-25T00:00:00Z"
@@ -46,12 +48,10 @@ slides: ""
 ### Citation
 
 ```bibtex
-@inproceedings{cheng2025blog,
-  title     = {Backdoor Attack against Log Anomaly Detection Models},
-  author    = {Cheng, He and Xu, Depeng and Yuan, Shuhan},
-  booktitle = {Companion Proceedings of the ACM Web Conference 2025},
-  pages     = {915--918},
-  publisher = {ACM},
-  year      = {2025},
-  doi       = {10.1145/3701716.3715533}
+@inproceedings{cheng2025backdoor,
+  title={Backdoor Attack against Log Anomaly Detection Models},
+  author={Cheng, He and Xu, Depeng and Yuan, Shuhan},
+  booktitle={Companion Proceedings of the ACM on Web Conference 2025},
+  pages={915--918},
+  year={2025}
 }

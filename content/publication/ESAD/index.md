@@ -3,6 +3,8 @@ title: "Explainable Sequential Anomaly Detection via Prototypes"
 
 authors:
   - admin
+  - Depeng Xu
+  - Shuhan Yuan
 
 date: "2023-06-18T00:00:00Z"
 publishDate: "2023-06-18T00:00:00Z"
@@ -46,12 +48,11 @@ slides: ""
 ### Citation
 
 ```bibtex
-@inproceedings{cheng2023easd,
-  title     = {Explainable Sequential Anomaly Detection via Prototypes},
-  author    = {Cheng, He and Xu, Depeng and Yuan, Shuhan},
-  booktitle = {2023 International Joint Conference on Neural Networks (IJCNN)},
-  pages     = {1--8},
-  publisher = {IEEE},
-  year      = {2023},
-  doi       = {10.1109/IJCNN54540.2023.10191703}
+@inproceedings{cheng2023explainable,
+  title={Explainable sequential anomaly detection via prototypes},
+  author={Cheng, He and Xu, Depeng and Yuan, Shuhan},
+  booktitle={2023 International Joint Conference on Neural Networks (IJCNN)},
+  pages={1--8},
+  year={2023},
+  organization={IEEE}
 }

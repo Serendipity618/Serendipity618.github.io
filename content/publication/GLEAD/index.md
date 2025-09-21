@@ -3,6 +3,8 @@ title: "Sequential Anomaly Detection with Local and Global Explanations"
 
 authors:
   - admin
+  - Depeng Xu
+  - Shuhan Yuan
 
 date: "2022-12-17T00:00:00Z"
 publishDate: "2022-12-17T00:00:00Z"
@@ -46,12 +48,11 @@ slides: ""
 ### Citation
 
 ```bibtex
-@inproceedings{cheng2022glead,
-  title     = {Sequential Anomaly Detection with Local and Global Explanations},
-  author    = {Cheng, He and Xu, Depeng and Yuan, Shuhan},
-  booktitle = {2022 IEEE International Conference on Big Data (Big Data)},
-  pages     = {1212--1217},
-  publisher = {IEEE},
-  year      = {2022},
-  doi       = {10.1109/BigData55660.2022.10020990}
+@inproceedings{cheng2022sequential,
+  title={Sequential anomaly detection with local and global explanations},
+  author={Cheng, He and Xu, Depeng and Yuan, Shuhan},
+  booktitle={2022 IEEE International Conference on Big Data (Big Data)},
+  pages={1212--1217},
+  year={2022},
+  organization={IEEE}
 }

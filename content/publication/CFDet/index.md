@@ -3,6 +3,9 @@ title: "Achieving Counterfactual Explanation for Sequence Anomaly Detection"
 
 authors:
   - admin
+  - Depeng Xu
+  - Shuhan Yuan
+  - Xintao Wu
 
 date: "2024-08-22T00:00:00Z"
 publishDate: "2024-08-22T00:00:00Z"
