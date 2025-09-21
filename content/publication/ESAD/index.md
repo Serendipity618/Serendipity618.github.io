@@ -1,0 +1,64 @@
+
+---
+
+### 📄 EASD (IJCNN 2023)
+```markdown
+---
+title: "Explainable Sequential Anomaly Detection via Prototypes (EASD)"
+
+authors:
+  - admin
+  - Depeng Xu
+  - Shuhan Yuan
+
+author_notes: []
+
+date: '2023-06-18T00:00:00Z'
+publishDate: '2023-06-18T00:00:00Z'
+
+publication_types: ['paper-conference']
+
+publication: In *International Joint Conference on Neural Networks (IJCNN 2023)*
+publication_short: In *IJCNN*
+
+abstract: |
+  We propose **EASD**, a prototype-based framework for explainable sequential anomaly detection. By linking anomalous subsequences to representative prototypes, EASD provides human-understandable explanations while maintaining strong detection accuracy.
+
+summary: "Prototype-based explainable sequential anomaly detection."
+
+tags:
+  - Anomaly Detection
+  - Explainability
+  - Prototypes
+
+featured: false
+
+hugoblox:
+  ids:
+    doi: 10.1109/IJCNN54540.2023.10191703
+
+links:
+  - type: pdf
+    url: "https://doi.org/10.1109/IJCNN54540.2023.10191703"
+
+image:
+  caption: "EASD prototype framework illustration"
+  focal_point: ""
+  preview_only: false
+
+projects: []
+slides: ""
+---
+
+### Citation
+
+```bibtex
+@inproceedings{cheng2023easd,
+  title     = {Explainable Sequential Anomaly Detection via Prototypes},
+  author    = {Cheng, He and Xu, Depeng and Yuan, Shuhan},
+  booktitle = {2023 International Joint Conference on Neural Networks (IJCNN)},
+  pages     = {1--8},
+  publisher = {IEEE},
+  year      = {2023},
+  doi       = {10.1109/IJCNN54540.2023.10191703}
+}

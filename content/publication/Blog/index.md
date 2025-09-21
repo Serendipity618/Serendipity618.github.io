@@ -35,6 +35,8 @@ hugoblox:
 links:
   - type: pdf
     url: "https://dl.acm.org/doi/10.1145/3701716.3715533"
+  - type: code
+    url: "https://github.com/Serendipity618/Blog"
 
 image:
   caption: "Blog framework illustration"
