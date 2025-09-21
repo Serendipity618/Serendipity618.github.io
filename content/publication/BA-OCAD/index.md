@@ -1,5 +1,5 @@
 ---
-title: "Backdoor Attack Against One-Class Sequential Anomaly Detection Models (BA-OCAD)"
+title: "Backdoor Attack Against One-Class Sequential Anomaly Detection Models"
 
 authors:
   - admin

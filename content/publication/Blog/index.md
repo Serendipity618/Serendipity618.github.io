@@ -1,22 +1,16 @@
-
 ---
-
-### 📄 Blog (WWW 2025)
-
-```markdown
----
-title: "Backdoor Attack against Log Anomaly Detection Models (Blog)"
+title: "Backdoor Attack against Log Anomaly Detection Models"
 
 authors:
   - admin
 
-date: '2025-04-25T00:00:00Z'
-publishDate: '2025-04-25T00:00:00Z'
+date: "2025-04-25T00:00:00Z"
+publishDate: "2025-04-25T00:00:00Z"
 
-publication_types: ['paper-conference']
+publication_types: ["paper-conference"]
 
-publication: In *Companion Proceedings of the ACM Web Conference 2025*
-publication_short: In *WWW 2025*
+publication: "In *Companion Proceedings of the ACM Web Conference 2025*"
+publication_short: "In *WWW 2025*"
 
 abstract: |
   We propose **Blog**, a backdoor attack framework targeting log anomaly detection models. Blog embeds carefully crafted triggers into training logs, enabling adversaries to manipulate predictions at inference while preserving benign performance. Experiments show that state-of-the-art log anomaly detection systems are highly vulnerable, underscoring the need for stronger defenses.
@@ -32,16 +26,16 @@ featured: true
 
 hugoblox:
   ids:
-    doi: 10.1145/3701716.3715533
+    doi: "10.1145/3701716.3715533"
 
 links:
   - type: pdf
     url: "https://dl.acm.org/doi/10.1145/3701716.3715533"
   - type: code
-    url: "https://github.com/Serendipity618/BLOG"
+    url: "https://github.com/Serendipity618/Blog"
 
 image:
-  caption: "BLOG framework illustration"
+  caption: "Blog framework illustration"
   focal_point: ""
   preview_only: false
 
