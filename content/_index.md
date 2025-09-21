@@ -99,6 +99,10 @@ sections:
     design:
       # Choose a layout view
       view: card
+
+      # Do not show images
+      show_image: false
+
       # Reduce spacing
       spacing:
         padding: [0, 0, 0, 0]
