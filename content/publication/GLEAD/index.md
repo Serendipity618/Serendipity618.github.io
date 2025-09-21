@@ -12,7 +12,7 @@ publishDate: "2022-12-17T00:00:00Z"
 publication_types: ["paper-conference"]
 
 publication: "In *IEEE International Conference on Big Data (Big Data 2022)*"
-publication_short: "In *IEEE BigData*"
+publication_short: "In *IEEE International Conference on Big Data (Big Data 2022)*"
 
 abstract: |
   We propose **GLEAD**, a framework for sequential anomaly detection that provides both local explanations (highlighting anomalous subsequences) and global explanations (dataset-wide patterns). This dual perspective improves transparency for practitioners while maintaining strong detection performance.

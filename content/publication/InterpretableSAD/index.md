@@ -13,8 +13,8 @@ publishDate: '2021-12-15T00:00:00Z'
 
 publication_types: ['paper-conference']
 
-publication: In *IEEE International Conference on Big Data (Big Data 2021)*
-publication_short: In *IEEE BigData*
+publication: "In *IEEE International Conference on Big Data (Big Data 2021)*"
+publication_short: "In *IEEE International Conference on Big Data (Big Data 2021)*"
 
 abstract: |
   We propose **InterpretableSAD**, a framework for anomaly detection in sequential log data with built-in interpretability. The model detects abnormal subsequences while providing explanations through interpretable prototypes. Experiments on system log datasets demonstrate that InterpretableSAD achieves competitive detection accuracy while offering human-understandable explanations.

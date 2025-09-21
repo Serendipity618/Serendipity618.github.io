@@ -13,7 +13,7 @@ publishDate: "2024-08-22T00:00:00Z"
 publication_types: ["paper-conference"]
 
 publication: "In *European Conference on Machine Learning and Principles and Practice of Knowledge Discovery in Databases (ECML PKDD 2024)*"
-publication_short: "In *ECML PKDD*"
+publication_short: "In *European Conference on Machine Learning and Principles and Practice of Knowledge Discovery in Databases (ECML PKDD 2024)*"
 
 abstract: |
   We propose **CFDet**, a counterfactual explanation framework for sequence anomaly detection. CFDet identifies anomalous entries by generating minimal and plausible modifications that alter a model’s prediction from anomalous to normal. Experiments on BGL, Thunderbird, and CERT datasets demonstrate that CFDet produces high-fidelity explanations and consistently outperforms attention-based, Shapley value, and gradient-based baselines.

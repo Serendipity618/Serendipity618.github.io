@@ -12,7 +12,7 @@ publishDate: "2025-04-25T00:00:00Z"
 publication_types: ["paper-conference"]
 
 publication: "In *Companion Proceedings of the ACM Web Conference 2025*"
-publication_short: "In *WWW 2025*"
+publication_short: "In *Companion Proceedings of the ACM Web Conference 2025 (WWW 2025)*"
 
 abstract: |
   We propose **Blog**, a backdoor attack framework targeting log anomaly detection models. Blog embeds carefully crafted triggers into training logs, enabling adversaries to manipulate predictions at inference while preserving benign performance. Experiments show that state-of-the-art log anomaly detection systems are highly vulnerable, underscoring the need for stronger defenses.

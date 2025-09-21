@@ -12,7 +12,7 @@ publishDate: "2024-04-25T00:00:00Z"
 publication_types: ["paper-conference"]
 
 publication: "In *Pacific-Asia Conference on Knowledge Discovery and Data Mining (PAKDD 2024)*"
-publication_short: "In *PAKDD*"
+publication_short: "In *Pacific-Asia Conference on Knowledge Discovery and Data Mining (PAKDD 2024)*"
 
 abstract: |
   We propose **BA-OCAD**, a clean-label backdoor attack framework targeting one-class sequential anomaly detection models. By injecting stealthy triggers into training data, BA-OCAD enables adversaries to mislead anomaly detectors at inference while maintaining benign performance.

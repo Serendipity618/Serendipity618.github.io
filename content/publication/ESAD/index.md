@@ -12,7 +12,7 @@ publishDate: "2023-06-18T00:00:00Z"
 publication_types: ["paper-conference"]
 
 publication: "In *International Joint Conference on Neural Networks (IJCNN 2023)*"
-publication_short: "In *IJCNN*"
+publication_short: "In *International Joint Conference on Neural Networks (IJCNN 2023)*"
 
 abstract: |
   We propose **EASD**, a prototype-based framework for explainable sequential anomaly detection. By linking anomalous subsequences to representative prototypes, EASD provides human-understandable explanations while maintaining strong detection accuracy.
