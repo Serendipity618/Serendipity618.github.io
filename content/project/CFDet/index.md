@@ -19,16 +19,13 @@ We propose **CFDet**, a framework that explains sequence anomaly detection by id
 ### Citation
 
 ```bibtex
-@inproceedings{cheng2024cfdet,
-  title     = {Achieving Counterfactual Explanation for Sequence Anomaly Detection},
-  author    = {Cheng, He and Xu, Depeng and Yuan, Shuhan and Wu, Xintao},
-  booktitle = {Machine Learning and Knowledge Discovery in Databases. Research Track (ECML PKDD 2024)},
-  series    = {Lecture Notes in Artificial Intelligence},
-  volume    = {14948},
-  pages     = {19--35},
-  publisher = {Springer},
-  year      = {2024},
-  doi       = {10.1007/978-3-031-70371-3_2}
+@inproceedings{cheng2024achieving,
+  title={Achieving Counterfactual Explanation for Sequence Anomaly Detection},
+  author={Cheng, He and Xu, Depeng and Yuan, Shuhan and Wu, Xintao},
+  booktitle={Joint European Conference on Machine Learning and Knowledge Discovery in Databases},
+  pages={19--35},
+  year={2024},
+  organization={Springer}
 }
 
 <!--more-->

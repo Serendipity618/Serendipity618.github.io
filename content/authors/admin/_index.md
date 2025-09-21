@@ -93,7 +93,7 @@ work:
     summary: |
       Conducted research on anomaly detection, interpretable machine learning, and robustness against backdoor attacks. Published multiple papers in ECML PKDD, PAKDD, IJCNN, IEEE Big Data, etc.
     
-  - position: Graduate Research Assistant
+  - position: Graduate Teaching Assistant
     company_name: Utah State University
     company_url: 'https://www.usu.edu/'
     company_logo: ''
