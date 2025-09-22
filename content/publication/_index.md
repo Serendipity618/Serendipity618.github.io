@@ -1,8 +1,8 @@
 ---
-title: "Publications"      # keeps metadata & menu text
+title: 
 view: citation
 type: page
-show_title: false          # hides the giant H1
+show_title: false          
 cms_exclude: true
 banner:
   caption: ""
