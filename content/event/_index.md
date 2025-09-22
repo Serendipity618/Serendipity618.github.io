@@ -12,7 +12,7 @@ sections:
     content:
       title: "Recent & Upcoming Talks"   # smaller heading like Projects
       filters:
-        folders: ["talks"]               # pull items from content/event/*
+        folders: ["event"]               # pull items from content/event/*
         # optional:
         # exclude_featured: false
         # publication_type: []
