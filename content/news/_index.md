@@ -1,59 +1,29 @@
 ---
 title: "News"
 summary: "Milestones & announcements"
-type: "landing"
-
-sections:
-  - block: "features"
-    id: "news"
-    content:
-      title: "News & Milestones"
-      items:
-        - name: "Workshop Abstract Accepted — AMIA 2025"
-          description: "Efficient Multi-Hop Knowledge Graph Retrieval via Sparse Matrix Decomposition for LLM-Enhanced Biomedical Reasoning (Atlanta, Nov 15–19)."
-          icon: "fas fa-trophy"
-          align: "left"
-
-        - name: "Postdoctoral Researcher — CU Anschutz, DBMI"
-          description: "Started postdoc with Prof. Yanjun Gao. Focus: LogosKG (efficient multi-hop KG retrieval) and clinical NLP."
-          icon: "fas fa-briefcase"
-          align: "left"
-
-        - name: "Ph.D. Completed — Utah State University"
-          description: "Successfully defended and awarded Ph.D. in Computer Science (Dec 2024). Research: anomaly detection, interpretability, backdoor attacks."
-          icon: "fas fa-graduation-cap"
-          align: "left"
-
-        - name: "Paper Accepted — ECML-PKDD 2024"
-          description: "Achieving Counterfactual Explanation for Sequence Anomaly Detection."
-          icon: "fas fa-certificate"
-          align: "left"
-
-        - name: "Paper Accepted — PAKDD 2024"
-          description: "Backdoor Attack Against One-Class Sequential Anomaly Detection Models."
-          icon: "fas fa-award"
-          align: "left"
-
-        - name: "Ph.D. Proposal Defense — Passed"
-          description: "Successfully passed Ph.D. proposal defense (Spring 2024)."
-          icon: "fas fa-chalkboard-teacher"
-          align: "left"
-
-        - name: "Paper Accepted — IJCNN 2023"
-          description: "Explainable Sequential Anomaly Detection via Prototypes."
-          icon: "fas fa-award"
-          align: "left"
-
-        - name: "Paper Accepted — IEEE Big Data 2022"
-          description: "Sequential Anomaly Detection with Local and Global Explanations."
-          icon: "fas fa-book-open"
-          align: "left"
-
-        - name: "Paper Accepted — IEEE Big Data 2021"
-          description: "InterpretableSAD: Interpretable Anomaly Detection in Sequential Log Data."
-          icon: "fas fa-file-alt"
-          align: "left"
-    design:
-      view: "card"     # or "compact" for tighter rows
-      columns: 2
+type: "page"
+show_title: false
+classes: ["news-page"]
 ---
+
+### News & Milestones
+
+#### 2025
+- {{< icon name="trophy" pack="fas" >}} **Sep 12** — Workshop abstract **accepted** at *AMIA 2025* (NLP Workshop, Atlanta).  
+  *Efficient Multi-Hop Knowledge Graph Retrieval via Sparse Matrix Decomposition for LLM-Enhanced Biomedical Reasoning.*
+- {{< icon name="briefcase" pack="fas" >}} **Jul 1** — Started **Postdoctoral Researcher** position, DBMI, **University of Colorado Anschutz Medical Campus**.
+
+#### 2024
+- {{< icon name="graduation-cap" pack="fas" >}} **Dec** — Successfully **defended and awarded Ph.D.** in Computer Science, Utah State University.
+- {{< icon name="certificate" pack="fas" >}} **Aug 22** — **Paper accepted (ECML-PKDD 2024):** *Achieving Counterfactual Explanation for Sequence Anomaly Detection*.
+- {{< icon name="award" pack="fas" >}} **Apr 25** — **Paper accepted (PAKDD 2024):** *Backdoor Attack Against One-Class Sequential Anomaly Detection Models*.
+- {{< icon name="chalkboard-teacher" pack="fas" >}} **Spring** — **Ph.D. Proposal Defense** passed.
+
+#### 2023
+- {{< icon name="award" pack="fas" >}} **Jun 18** — **Paper accepted (IJCNN 2023):** *Explainable Sequential Anomaly Detection via Prototypes*.
+
+#### 2022
+- {{< icon name="book-open" pack="fas" >}} **Dec 17** — **Paper accepted (IEEE Big Data 2022):** *Sequential Anomaly Detection with Local and Global Explanations*.
+
+#### 2021
+- {{< icon name="file-alt" pack="fas" >}} **Dec 15** — **Paper accepted (IEEE Big Data 2021):** *InterpretableSAD: Interpretable Anomaly Detection in Sequential Log Data*.
