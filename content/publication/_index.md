@@ -1,12 +1,14 @@
 ---
-title: 
+title: "Publications"
 cms_exclude: true
 
 # View.
 view: citation
 
-# Optional header image (relative to `static/media/` folder).
+# Add a page-specific class so we can shrink only this title
+classes: ["shrink-title"]
+
 banner:
-  caption: ''
-  image: ''
+  caption: ""
+  image: ""
 ---
