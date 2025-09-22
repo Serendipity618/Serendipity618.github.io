@@ -31,8 +31,8 @@ sections:
           icon: "book"
           icon_pack: "fas"
 
-        - name: "Reviewer — Concurrency and Computation"
-          description: "Practice and Experience (Journal)"
+        - name: "Reviewer — Concurrency and Computation: Practice and Experience"
+          description: "Concurrency and Computation: Practice and Experience (Journal)"
           icon: "book"
           icon_pack: "fas"
 
