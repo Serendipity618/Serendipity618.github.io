@@ -17,12 +17,12 @@ main:
     url: /event/
     weight: 40
   - name: News
-    url: /post/
+    url: /news/
     weight: 50
   - name: Experience
     url: /experience/
     weight: 60
   - name: Services
-    url: /Services/
+    url: /services/
     weight: 70
 
