@@ -6,6 +6,22 @@ show_breadcrumb: false
 backlinks: false
 
 sections:
+  # 1) Page-scoped CSS (only affects #news block below)
+  - block: "markdown"
+    id: "news-style"
+    content:
+      title: ""
+      text: |-
+        <style>
+          /* Smaller text, comfy spacing, only on this page's #news block */
+          #news .section-title{font-size:1.05rem;margin:0 0 .6rem 0;line-height:1.25;}
+          #news .article-style, #news .markdown-body{font-size:.9rem;line-height:1.55;}
+          #news ul{margin:0;padding-left:1.1rem;}
+          #news li{margin:.6rem 0;}
+          #news strong{font-weight:600;}
+        </style>
+
+  # 2) Actual News content
   - block: "markdown"
     id: "news"
     content:
