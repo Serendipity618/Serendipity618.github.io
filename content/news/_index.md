@@ -11,13 +11,13 @@ sections:
       items:
         - name: "Workshop Abstract Accepted — AMIA 2025"
           description: "Efficient Multi-Hop Knowledge Graph Retrieval via Sparse Matrix Decomposition for LLM-Enhanced Biomedical Reasoning (Atlanta, Nov 15–19)."
-          icon: "award"
+          icon: "trophy"
           icon_pack: "fas"
           align: "left"
 
         - name: "Postdoctoral Researcher — CU Anschutz, DBMI"
           description: "Started postdoc with Prof. Yanjun Gao. Focus: LogosKG (efficient multi-hop KG retrieval) and clinical NLP."
-          icon: "briefcase"
+          icon: "user-graduate"
           icon_pack: "fas"
           align: "left"
 
@@ -29,13 +29,13 @@ sections:
 
         - name: "Paper Accepted — ECML-PKDD 2024"
           description: "Achieving Counterfactual Explanation for Sequence Anomaly Detection."
-          icon: "file-alt"
+          icon: "certificate"
           icon_pack: "fas"
           align: "left"
 
         - name: "Paper Accepted — PAKDD 2024"
           description: "Backdoor Attack Against One-Class Sequential Anomaly Detection Models."
-          icon: "file-alt"
+          icon: "award"
           icon_pack: "fas"
           align: "left"
 
@@ -47,13 +47,13 @@ sections:
 
         - name: "Paper Accepted — IJCNN 2023"
           description: "Explainable Sequential Anomaly Detection via Prototypes."
-          icon: "file-alt"
+          icon: "medal"
           icon_pack: "fas"
           align: "left"
 
         - name: "Paper Accepted — IEEE Big Data 2022"
           description: "Sequential Anomaly Detection with Local and Global Explanations."
-          icon: "file-alt"
+          icon: "book-open"
           icon_pack: "fas"
           align: "left"
 
