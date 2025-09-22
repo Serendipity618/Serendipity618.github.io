@@ -6,36 +6,81 @@ show_breadcrumb: false
 backlinks: false
 
 sections:
-  # 1) Page-scoped CSS (only affects #news block below)
+  # Page-only style (affects just this page)
   - block: "markdown"
-    id: "news-style"
+    id: "news-styles"
     content:
       title: ""
       text: |-
         <style>
-          /* Smaller text, comfy spacing, only on this page's #news block */
-          #news .section-title{font-size:1.05rem;margin:0 0 .6rem 0;line-height:1.25;}
-          #news .article-style, #news .markdown-body{font-size:.9rem;line-height:1.55;}
-          #news ul{margin:0;padding-left:1.1rem;}
-          #news li{margin:.6rem 0;}
-          #news strong{font-weight:600;}
+          /* Scope styles to this section only */
+          #news-timeline { font-size: 0.92rem; }
+          #news-timeline .section-title { font-size: 1.05rem; margin: 0 0 .6rem 0; line-height: 1.25; }
+          /* In case any body/description sneaks in, hide it */
+          #news-timeline .card-text, #news-timeline .article-style { display: none; }
         </style>
 
-  # 2) Actual News content
-  - block: "markdown"
-    id: "news"
+  # Timeline (Experience block)
+  - block: "experience"
+    id: "news-timeline"
     content:
       title: "News & Milestones"
-      text: |-
-        - 🏆 **2025-09-12** — *Workshop Abstract Accepted — AMIA 2025 (NLP Workshop)* — _Atlanta, GA_
-        - 💼 **2025-07-01** — *Postdoctoral Researcher — CU Anschutz (DBMI)* — _University of Colorado Anschutz Medical Campus_
-        - 🎓 **2024-12-01–12-31** — *Ph.D. Completed — Computer Science* — _Utah State University_
-        - 📖 **2024-08-22** — *Paper Accepted — ECML-PKDD 2024*
-        - 📖 **2024-04-25** — *Paper Accepted — PAKDD 2024*
-        - ✅ **2024-03-01** — *Ph.D. Proposal Defense — Passed* — _Utah State University_
-        - 📖 **2023-06-18** — *Paper Accepted — IJCNN 2023*
-        - 📖 **2022-12-17** — *Paper Accepted — IEEE Big Data 2022*
-        - 📖 **2021-12-15** — *Paper Accepted — IEEE Big Data 2021*
+      date_format: "Jan 2006"
+      items:
+        - title: "Workshop Abstract Accepted — AMIA 2025 (NLP Workshop)"
+          company: "Atlanta, GA"
+          date_start: "2025-09-12"
+          icon: "trophy"
+          icon_pack: "fas"
+
+        - title: "Postdoctoral Researcher — CU Anschutz (DBMI)"
+          company: "University of Colorado Anschutz Medical Campus"
+          date_start: "2025-07-01"
+          icon: "briefcase"
+          icon_pack: "fas"
+
+        - title: "Ph.D. Completed — Computer Science"
+          company: "Utah State University"
+          date_start: "2024-12-01"
+          date_end: "2024-12-31"
+          icon: "award"
+          icon_pack: "fas"
+
+        - title: "Paper Accepted — ECML-PKDD 2024"
+          company: ""
+          date_start: "2024-08-22"
+          icon: "book-open"
+          icon_pack: "fas"
+
+        - title: "Paper Accepted — PAKDD 2024"
+          company: ""
+          date_start: "2024-04-25"
+          icon: "book-open"
+          icon_pack: "fas"
+
+        - title: "Ph.D. Proposal Defense — Passed"
+          company: "Utah State University"
+          date_start: "2024-03-01"
+          icon: "check-circle"
+          icon_pack: "fas"
+
+        - title: "Paper Accepted — IJCNN 2023"
+          company: ""
+          date_start: "2023-06-18"
+          icon: "book-open"
+          icon_pack: "fas"
+
+        - title: "Paper Accepted — IEEE Big Data 2022"
+          company: ""
+          date_start: "2022-12-17"
+          icon: "book-open"
+          icon_pack: "fas"
+
+        - title: "Paper Accepted — IEEE Big Data 2021"
+          company: ""
+          date_start: "2021-12-15"
+          icon: "book-open"
+          icon_pack: "fas"
     design:
       columns: 1
 ---
