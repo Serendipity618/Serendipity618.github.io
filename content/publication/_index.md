@@ -1,5 +1,12 @@
 ---
-title: "Publications"
-type: "page"       
-show_title: false  
+title: 
+cms_exclude: true
+
+# View.
+view: citation
+
+# Optional header image (relative to `static/media/` folder).
+banner:
+  caption: ''
+  image: ''
 ---
