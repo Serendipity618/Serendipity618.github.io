@@ -3,8 +3,31 @@ title: "News"
 summary: "Milestones & announcements"
 type: "page"
 show_title: false
-classes: ["news-page"]
 ---
+
+<style>
+/* Scope to this page only */
+#news-page h3 {
+  font-size: clamp(1.05rem, 1.6vw, 1.25rem);
+  margin: 0 0 .6rem;
+  font-weight: 600;
+}
+#news-page h4 {
+  font-size: clamp(0.95rem, 1.4vw, 1.1rem);
+  margin: .9rem 0 .35rem;
+  font-weight: 600;
+}
+#news-page ul { margin-top: .25rem; }
+#news-page li { margin: .25rem 0; line-height: 1.45; }
+#news-page i.fas { 
+  opacity: .95; 
+  margin-right: .35rem; 
+  font-size: .95em; 
+  transform: translateY(1px);
+}
+</style>
+
+<div id="news-page">
 
 ### News & Milestones
 
@@ -27,3 +50,5 @@ classes: ["news-page"]
 
 #### 2021
 - <i class="fas fa-book-open"></i> **Dec 15** — **Paper accepted (IEEE Big Data 2021):** *InterpretableSAD: Interpretable Anomaly Detection in Sequential Log Data*.
+
+</div>
