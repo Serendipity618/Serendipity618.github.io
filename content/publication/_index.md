@@ -1,14 +1,12 @@
 ---
-title: "Publications"
-cms_exclude: true
-
-# View.
+title: "Publications"      # keeps metadata & menu text
 view: citation
-
-# Add a page-specific class so we can shrink only this title
-classes: ["shrink-title"]
-
+type: page
+show_title: false          # hides the giant H1
+cms_exclude: true
 banner:
   caption: ""
   image: ""
 ---
+
+### Publications
