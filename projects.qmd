@@ -1,0 +1,103 @@
+---
+title: "Projects"
+description: "Research projects in biomedical NLP, knowledge graphs, multi-agent systems, and anomaly detection."
+toc: false
+---
+
+<p class="section-lede">My research spans efficient knowledge graph retrieval, multi-agent clinical reasoning, and interpretable and robust anomaly detection.</p>
+
+::: {.projects-page .content-grid}
+::: {.content-card}
+### [Orchestrator-Centered Multi-Agent Systems for Clinical Reasoning](projects/multi-agent-clinical-reasoning/)
+
+Specialized large language model agents generate, review, and refine diagnostic predictions through structured multi-step interactions, coordinated by a reinforcement-learning orchestrator.
+
+::: {.tag-list}
+<span>Multi-Agent Systems</span><span>LLMs</span><span>Reinforcement Learning</span><span>Clinical AI</span>
+:::
+:::
+
+::: {.content-card}
+### [BadSAD](projects/badsad/)
+
+Clean-label backdoor attacks against deep semi-supervised anomaly detection models.
+
+[Paper](https://ieeexplore.ieee.org/abstract/document/11402072)
+
+::: {.tag-list}
+<span>Anomaly Detection</span><span>Backdoor Attacks</span><span>Trustworthy AI</span>
+:::
+:::
+
+::: {.content-card}
+### [LogosKG](projects/logoskg/)
+
+Hardware-optimized, scalable, and interpretable multi-hop retrieval over large knowledge graphs.
+
+[Paper](https://aclanthology.org/2026.acl-long.1966/) · [Code](https://github.com/LARK-NLP-Lab/LogosKG)
+
+::: {.tag-list}
+<span>Knowledge Graphs</span><span>LLMs</span><span>Biomedical NLP</span>
+:::
+:::
+
+::: {.content-card}
+### [BLOG](projects/blog/)
+
+A backdoor attack framework designed for log anomaly detection models.
+
+[Paper](https://dl.acm.org/doi/abs/10.1145/3701716.3715533) · [Code](https://github.com/Serendipity618/Blog)
+
+::: {.tag-list}
+<span>Anomaly Detection</span><span>Backdoor Attacks</span><span>Log Data</span>
+:::
+:::
+
+::: {.content-card}
+### [CFDet](projects/cfdet/)
+
+Counterfactual explanations for sequence anomaly detection that identify minimal changes needed to convert an anomalous sequence into a normal one.
+
+[Paper](https://link.springer.com/chapter/10.1007/978-3-031-70371-3_2) · [Code](https://github.com/Serendipity618/CFDet)
+
+::: {.tag-list}
+<span>Anomaly Detection</span><span>Counterfactual Explanation</span><span>Sequence Modeling</span>
+:::
+:::
+
+::: {.content-card}
+### [BA-OCAD](projects/ba-ocad/)
+
+A clean-label backdoor attack framework targeting one-class sequential anomaly detection models.
+
+[Paper](https://link.springer.com/chapter/10.1007/978-981-97-2259-4_20) · [Code](https://github.com/Serendipity618/BA-OCAD)
+
+::: {.tag-list}
+<span>Anomaly Detection</span><span>Backdoor Attacks</span><span>Security</span>
+:::
+:::
+
+::: {.content-card}
+### [EASD](projects/esad/)
+
+Prototype-based explainable sequential anomaly detection with human-understandable explanations.
+
+[Paper](https://ieeexplore.ieee.org/abstract/document/10191703) · [Code](https://github.com/Serendipity618/EASD)
+
+::: {.tag-list}
+<span>Anomaly Detection</span><span>Explainability</span><span>Prototypes</span>
+:::
+:::
+
+::: {.content-card}
+### [GLEAD](projects/glead/)
+
+Sequential anomaly detection with both local explanations and global explanations.
+
+[Paper](https://ieeexplore.ieee.org/abstract/document/10020990) · [Code](https://github.com/Serendipity618/GLEAD)
+
+::: {.tag-list}
+<span>Anomaly Detection</span><span>Interpretability</span><span>Sequential Data</span>
+:::
+:::
+:::

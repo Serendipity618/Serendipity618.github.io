@@ -1,0 +1,23 @@
+---
+title: "BadSAD: Clean-Label Backdoor Attacks against Deep Semi-Supervised Anomaly Detection"
+date: 2025-12-08
+links:
+  - type: publication
+    url: https://ieeexplore.ieee.org/abstract/document/11402072
+  - type: pdf
+    url: https://arxiv.org/pdf/2412.13324
+tags:
+  - Anomaly Detection
+  - Backdoor Attacks
+  - Trustworthy AI
+---
+
+## BadSAD: Clean-Label Backdoor Attacks against Deep Semi-Supervised Anomaly Detection
+
+**BadSAD** is a clean-label backdoor attack against Deep Semi-Supervised Anomaly Detection (DeepSAD) models. It combines trigger injection in normal images with latent-space poisoning so that triggered anomalies are misclassified as normal.
+
+---
+
+### Publication
+
+Published in the **2025 IEEE International Conference on Big Data (IEEE BigData 2025)**.

@@ -1,0 +1,46 @@
+---
+title: "Sequential Anomaly Detection with Local and Global Explanations"
+
+authors:
+  - He Cheng
+  - Depeng Xu
+  - Shuhan Yuan
+
+date: "2022-12-17T00:00:00Z"
+
+publication: "In *IEEE International Conference on Big Data (Big Data 2022)*"
+
+abstract: |
+  Sequential anomaly detection has been studied for decades because of its wide spectrum of applications and obtained significant improvement in recent years by utilizing deep learning techniques. As an increasing number of anomaly detection models are applied to high-stake tasks involving human beings, it is critical to understand the reasons why the samples are labeled as anomalies. In this work, we propose a Globally and Locally Explainable Anomaly Detection (GLEAD) framework targeting sequential data. Especially, considering that the anomalies are usually diverse, we make use of the multi-head self-attention techniques to derive representations for sequences as well as prototypes, which capture a variety of patterns in anomalies. The attention mechanism highlights the abnormal entries with high attention weights in the abnormal sequences for the local explanation. Moreover, the prototypes of anomalies encoding the common patterns of abnormal sequences are derived to achieve the global explanation. Experimental results on two sequential anomaly detection datasets show that our approach can detect abnormal sequences and provide local and global explanations.
+
+summary: "Sequential anomaly detection with local and global explanations."
+
+tags:
+  - Anomaly Detection
+  - Interpretability
+  - Sequential Data
+
+links:
+  - type: pdf
+    url: "https://ieeexplore.ieee.org/iel7/10020192/10020156/10020990.pdf"
+  - type: code
+    url: "https://github.com/Serendipity618/GLEAD"
+
+include-after-body:
+  - ../../back-to-top.html
+  - ../../bibtex-copy.html
+
+---
+
+<div class="paper-citation-actions">
+<button type="button" class="bibtex-copy" aria-label="Copy BibTeX citation"><i class="bi bi-clipboard"></i><span>BibTeX</span></button>
+<script type="text/plain" class="paper-bibtex-data">@inproceedings{cheng2022sequential,
+  author = {Cheng, He and Xu, Depeng and Yuan, Shuhan},
+  title = {Sequential Anomaly Detection with Local and Global Explanations},
+  booktitle = {2022 IEEE International Conference on Big Data (Big Data)},
+  year = {2022},
+  pages = {1212--1217},
+  doi = {10.1109/BigData55660.2022.10020990},
+  publisher = {IEEE}
+}</script>
+</div>

@@ -1,0 +1,25 @@
+<div class="pub-listing list" id="publication-list">
+<% for (const item of items) {
+const topics = Array.isArray(item.topics)
+? item.topics
+: (item.topics ? String(item.topics).split("|").map((topic) => topic.trim()).filter(Boolean) : []);
+const volume = item.volume ? String(item.volume) : "";
+const issue = item.issue ? `(${item.issue})` : "";
+const pages = item.pages ? String(item.pages) : "";
+const volumeReference = `${volume}${issue}${pages ? `${volume || issue ? ": " : ""}${pages}` : ""}`;
+const hasPdf = Boolean(item.pdf);
+const hasGithub = Boolean(item.github);
+const hasDemo = Boolean(item.demo);
+const hasBibtex = Boolean(item.bibtex);
+%>
+<article class="pub-item" <%= metadataAttrs(item) %> data-year="<%= item.year || "" %>" data-venue="<%= item.venue || "" %>" data-topics="<%= topics.join("|") %>">
+<div class="pub-meta-row"><% if (item.year) { %><span class="pub-meta-chip pub-meta-year"><%= item.year %></span><% } %><% if (item.venue) { %><span class="pub-meta-chip pub-meta-venue"><%- item.venue %></span><% } %><% topics.forEach((topic) => { %><span class="pub-meta-chip pub-meta-topic"><%- topic %></span><% }); %></div>
+<h3 class="pub-title-heading"><% if (item.path) { %><a href="<%= item.path %>"><%- item.title %></a><% } else { %><%- item.title %><% } %></h3>
+<p class="pub-authors"><%- item.authors %></p>
+<p class="pub-venue-line"><% if (item.journal) { %><em><%- item.journal %></em><% } %><% if (volumeReference) { %><span class="pub-volume"><%- volumeReference %></span><% } %><% if (item.doi) { %><a href="https://doi.org/<%= item.doi %>" target="_blank" rel="noopener" class="pub-doi">DOI: <%= item.doi %></a><% } %></p>
+<% if (hasPdf || hasGithub || hasDemo || hasBibtex) { %>
+<div class="pub-links"><% if (hasPdf) { %><a href="<%= item.pdf %>" class="pub-btn btn-pdf" target="_blank" rel="noopener"><i class="bi bi-file-earmark-pdf"></i> PDF</a><% } %><% if (hasGithub) { %><a href="<%= item.github %>" class="pub-btn btn-github" target="_blank" rel="noopener"><i class="bi bi-github"></i> Code</a><% } %><% if (hasDemo) { %><a href="<%= item.demo %>" class="pub-btn btn-demo" target="_blank" rel="noopener"><i class="bi bi-globe"></i> Demo</a><% } %><% if (hasBibtex) { %><button type="button" class="pub-btn btn-bibtex bibtex-copy" aria-label="Copy BibTeX citation"><i class="bi bi-clipboard"></i><span>BibTeX</span></button><script type="text/plain" class="paper-bibtex-data"><%- item.bibtex %></script><% } %></div>
+<% } %>
+</article>
+<% } %>
+</div>

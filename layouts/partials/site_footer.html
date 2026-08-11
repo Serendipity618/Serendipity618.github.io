@@ -1,5 +1,0 @@
-<footer class="site-footer">
-  <p class="powered-by">
-    {{ replace (replace (site.Params.footer.copyright.notice | default (printf "© %d Me" now.Year)) "{year}" now.Year) "{license}" (site.Params.footer.copyright.license | default "") | markdownify }}
-  </p>
-</footer>

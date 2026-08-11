@@ -1,0 +1,15 @@
+---
+title: "Explainable Sequential Anomaly Detection via Prototypes (EASD)"
+date: 2023-06-18
+links:
+  - type: publication
+    url: https://ieeexplore.ieee.org/abstract/document/10191703?casa_token=RH--9N3TjOQAAAAA:Crmo_7WZY0bLKUBGTAnZwPZ8_moTyT4wIz2x8537iutcH9ddT6_axgLIiWmQ4SzorM9ItKqqi5c
+tags:
+  - Anomaly Detection
+  - Explainability
+  - Prototypes
+---
+
+## EASD: Explainable Sequential Anomaly Detection via Prototypes
+
+This project develops a prototype-based framework for explainable sequential anomaly detection. Multiple prototypes represent different normal and abnormal sequence patterns, while contrastive learning and k-means clustering support instance-based explanations.

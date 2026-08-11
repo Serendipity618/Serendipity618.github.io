@@ -1,0 +1,60 @@
+project:
+  type: website
+  output-dir: docs
+  render:
+    - "*.qmd"
+    - "projects/**/*.qmd"
+    - "publications/**/*.qmd"
+
+website:
+  site-url: "https://serendipity618.github.io/"
+  description: "He Cheng — Postdoctoral Researcher in Biomedical Informatics"
+  navbar:
+    left:
+      - href: index.qmd
+        text: Bio
+      - href: publications.qmd
+        text: Papers
+      - href: projects.qmd
+        text: Projects
+      - href: news.qmd
+        text: News
+      - href: services.qmd
+        text: Services
+      - href: experience.qmd
+        text: Experience
+    right:
+      - href: files/He-Cheng-CV.pdf
+        text: CV
+        target: _blank
+      - icon: github
+        href: https://github.com/Serendipity618
+        aria-label: GitHub
+      - icon: linkedin
+        href: https://www.linkedin.com/in/he-cheng-b49b71183
+        aria-label: LinkedIn
+      - icon: mortarboard-fill
+        href: https://scholar.google.com/citations?user=zqYwQ5UAAAAJ&hl=en
+        aria-label: Google Scholar
+  page-footer:
+    center: "© 2026 He Cheng"
+
+format:
+  html:
+    pagetitle: "He Cheng | Postdoctoral Researcher at CU Anschutz"
+    theme:
+      light: cosmo
+      dark: darkly
+    css: styles.css
+    toc: true
+    toc-depth: 2
+    link-external-newwindow: true
+    smooth-scroll: true
+    page-layout: full
+    include-in-header:
+      text: |
+        <meta name="google-site-verification" content="" />
+    include-after-body: back-to-top.html
+
+execute:
+  freeze: auto

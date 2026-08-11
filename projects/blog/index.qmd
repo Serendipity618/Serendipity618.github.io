@@ -1,0 +1,15 @@
+---
+title: "Backdoor Attack against Log Anomaly Detection Models (BLOG)"
+date: 2025-04-25
+links:
+  - type: publication
+    url: https://dl.acm.org/doi/abs/10.1145/3701716.3715533
+tags:
+  - Anomaly Detection
+  - Backdoor Attacks
+  - Log Data
+---
+
+## BLOG: Backdoor Attack against Log Anomaly Detection Models
+
+**BLOG** is a backdoor attack framework for self-supervised log anomaly detection models such as DeepLog and LogBERT. It combines data poisoning using normal log entries with a modified training objective, allowing abnormal logs to evade detection while maintaining benign performance.

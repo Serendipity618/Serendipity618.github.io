@@ -1,0 +1,46 @@
+---
+title: "Backdoor Attack against Log Anomaly Detection Models"
+
+authors:
+  - He Cheng
+  - Depeng Xu
+  - Shuhan Yuan
+
+date: "2025-04-25T00:00:00Z"
+
+publication: "In *Companion Proceedings of the ACM Web Conference 2025*"
+
+abstract: |
+  Detecting anomalies in system logs has been an active research topic because of its importance in detecting system faults and novel attacks. Recently, many log anomaly detection approaches equipped with deep learning techniques have demonstrated great success. However, the vulnerability to backdoor attacks of these approaches is under-exploited. In this paper, we study how to inject a backdoor into self-supervised log anomaly detection models, i.e., making abnormal logs evade detection. To ensure stealth, we first design a trigger pattern without including any abnormal log entries. Then, we revise a learning objective that can inject the trigger into anomaly detection models. After deployment, if abnormal logs are hidden within the trigger, the backdoored log anomaly detection models could classify them as normal. We conduct backdoor attacks against two well-established self-supervised log anomaly detection models, DeepLog and LogBERT. Experimental results demonstrate the effectiveness of our method in making these models predict abnormal log entries as normal ones.
+
+summary: "Backdoor attack framework exposing vulnerabilities in log anomaly detection models."
+
+tags:
+  - Anomaly Detection
+  - Backdoor Attacks
+  - Log Data
+
+links:
+  - type: pdf
+    url: "https://dl.acm.org/doi/pdf/10.1145/3701716.3715533"
+  - type: code
+    url: "https://github.com/Serendipity618/Blog"
+
+include-after-body:
+  - ../../back-to-top.html
+  - ../../bibtex-copy.html
+
+---
+
+<div class="paper-citation-actions">
+<button type="button" class="bibtex-copy" aria-label="Copy BibTeX citation"><i class="bi bi-clipboard"></i><span>BibTeX</span></button>
+<script type="text/plain" class="paper-bibtex-data">@inproceedings{cheng2025backdoorlog,
+  author = {Cheng, He and Xu, Depeng and Yuan, Shuhan},
+  title = {Backdoor Attack against Log Anomaly Detection Models},
+  booktitle = {Companion Proceedings of the ACM on Web Conference 2025},
+  year = {2025},
+  pages = {915--918},
+  doi = {10.1145/3701716.3715533},
+  publisher = {Association for Computing Machinery}
+}</script>
+</div>

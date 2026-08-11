@@ -1,0 +1,127 @@
+---
+title: "News & Milestones"
+description: "Research news and career milestones."
+toc: false
+---
+
+::: {.timeline}
+::: {.timeline-item}
+<span class="timeline-dot"></span>
+
+### Paper Accepted — ACL 2026
+
+<div class="timeline-date">April 4, 2026</div>
+
+Our paper, **“LogosKG: Hardware-Optimized Scalable and Interpretable Knowledge Graph Retrieval,”** was accepted to the 64th Annual Meeting of the Association for Computational Linguistics. The [paper](https://aclanthology.org/2026.acl-long.1966/), [code](https://github.com/LARK-NLP-Lab/LogosKG), and [online demo](https://lark-nlp-lab-logoskg.hf.space/) are publicly available.
+:::
+
+::: {.timeline-item}
+<span class="timeline-dot"></span>
+
+### BadSAD Published — IEEE Big Data 2025
+
+<div class="timeline-date">December 2025</div>
+
+Our paper, **“BadSAD: Clean-Label Backdoor Attacks against Deep Semi-Supervised Anomaly Detection,”** appeared in the proceedings of the 2025 IEEE International Conference on Big Data. [Paper](https://ieeexplore.ieee.org/abstract/document/11402072)
+:::
+
+::: {.timeline-item}
+<span class="timeline-dot"></span>
+
+### Joined CU Anschutz as a Postdoctoral Researcher
+
+<div class="timeline-date">July 2025</div>
+
+Joined the Department of Biomedical Informatics at the University of Colorado Anschutz Medical Campus. My work focuses on biomedical knowledge-graph retrieval, large language model reasoning, and multi-agent systems for clinical applications.
+:::
+
+::: {.timeline-item}
+<span class="timeline-dot"></span>
+
+### Ph.D. Dissertation Defense — Completed
+
+<div class="timeline-date">Utah State University · December 2024</div>
+
+Successfully defended my dissertation, **“Interpretable and Robust Deep Anomaly Detection,”** and completed the Ph.D. in Computer Science at Utah State University.
+:::
+
+::: {.timeline-item}
+<span class="timeline-dot"></span>
+
+### Volunteer Lead — IEEE Big Data 2024
+
+<div class="timeline-date">December 2024</div>
+
+Served as Volunteer Lead for the 2024 IEEE International Conference on Big Data.
+:::
+
+::: {.timeline-item}
+<span class="timeline-dot"></span>
+
+### Paper Published — ECML PKDD 2024
+
+<div class="timeline-date">August 22, 2024</div>
+
+Our paper, **“Achieving Counterfactual Explanation for Sequence Anomaly Detection,”** presented a framework for identifying minimal changes that transform an anomalous sequence into a normal one. [Paper](https://link.springer.com/chapter/10.1007/978-3-031-70371-3_2) · [Code](https://github.com/Serendipity618/CFDet)
+:::
+
+::: {.timeline-item}
+<span class="timeline-dot"></span>
+
+### Paper Published — PAKDD 2024
+
+<div class="timeline-date">April 25, 2024</div>
+
+Our paper, **“Backdoor Attack Against One-Class Sequential Anomaly Detection Models,”** studied clean-label backdoor attacks against one-class sequential anomaly-detection models. [Paper](https://link.springer.com/chapter/10.1007/978-981-97-2259-4_20) · [Code](https://github.com/Serendipity618/BA-OCAD)
+:::
+
+::: {.timeline-item}
+<span class="timeline-dot"></span>
+
+### Doctoral Forum Travel Award — SDM 2024
+
+<div class="timeline-date">April 2024</div>
+
+Received the $1,000 SDM'24 Doctoral Forum Travel Award.
+:::
+
+::: {.timeline-item}
+<span class="timeline-dot"></span>
+
+### Ph.D. Proposal Defense — Passed
+
+<div class="timeline-date">Utah State University · March 2024</div>
+
+Successfully defended my doctoral research proposal on interpretable and robust deep anomaly detection, covering anomaly detection, model interpretability, and robustness against backdoor attacks.
+:::
+
+::: {.timeline-item}
+<span class="timeline-dot"></span>
+
+### Paper Published — IJCNN 2023
+
+<div class="timeline-date">June 18, 2023</div>
+
+Our paper, **“Explainable Sequential Anomaly Detection via Prototypes,”** developed a prototype-based framework for explaining sequential anomaly-detection results. [Paper](https://ieeexplore.ieee.org/abstract/document/10191703) · [Code](https://github.com/Serendipity618/EASD)
+:::
+
+::: {.timeline-item}
+<span class="timeline-dot"></span>
+
+### Paper Published — IEEE Big Data 2022
+
+<div class="timeline-date">December 17, 2022</div>
+
+Our paper, **“Sequential Anomaly Detection with Local and Global Explanations,”** introduced local explanations for individual anomalies and global explanations for recurring anomaly patterns. [Paper](https://ieeexplore.ieee.org/abstract/document/10020990) · [Code](https://github.com/Serendipity618/GLEAD)
+:::
+
+::: {.timeline-item}
+<span class="timeline-dot"></span>
+
+### Paper Published — IEEE Big Data 2021
+
+<div class="timeline-date">December 15, 2021</div>
+
+Our paper, **“InterpretableSAD: Interpretable Anomaly Detection in Sequential Log Data,”** presented an interpretable approach to sequential log anomaly detection. [Paper](https://ieeexplore.ieee.org/abstract/document/9671642) · [Code](https://github.com/hanxiao0607/InterpretableSAD)
+:::
+:::

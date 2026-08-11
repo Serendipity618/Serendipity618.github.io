@@ -1,0 +1,15 @@
+---
+title: "Backdoor Attack Against One-Class Sequential Anomaly Detection Models (BA-OCAD)"
+date: 2024-04-25
+links:
+  - type: publication
+    url: https://link.springer.com/chapter/10.1007/978-981-97-2259-4_20
+tags:
+  - Anomaly Detection
+  - Backdoor Attacks
+  - Security
+---
+
+## BA-OCAD: Backdoor Attack Against One-Class Sequential Anomaly Detection Models
+
+**BA-OCAD** is a backdoor attack framework for one-class sequential anomaly detection models such as Deep SVDD and OC4Seq. It uses trigger generation and backdoor injection to allow anomalies to evade detection while maintaining benign performance.

@@ -1,0 +1,81 @@
+---
+title: "Experience"
+description: "Research experience, education, technical skills, and awards."
+toc: true
+---
+
+## Professional experience
+
+### Postdoctoral Researcher — University of Colorado Anschutz Medical Campus
+
+*July 2025–present · Aurora, Colorado*
+
+- Develop scalable methods for multi-hop retrieval over large biomedical knowledge graphs and integrate retrieved evidence with large language models for clinical applications.
+- Develop orchestrator-centered multi-agent systems for clinical prediction, including reinforcement learning for agent selection, role assignment, and stopping decisions.
+- Work with clinicians and researchers on systems aligned with diagnostic and clinical decision-support workflows.
+
+### Volunteer Research Assistant — Utah State University
+
+*January 2025–June 2025 · Logan, Utah*
+
+- Collaborated with Dr. Shuhan Yuan to finalize academic publications and extend experimental evaluations of deep anomaly detection models.
+
+### Graduate Research Assistant — Utah State University
+
+*August 2020–December 2024 · Logan, Utah*
+
+- Designed and implemented machine-learning pipelines for log anomaly detection using PyTorch and TensorFlow.
+- Developed counterfactual explanations, global and local interpretability, and prototype-based insights for deep anomaly-detection systems.
+- Configured SSH access, managed distributed servers, automated system monitoring with Bash, and analyzed resource usage for machine-learning experiments.
+
+### Graduate Teaching Assistant — Utah State University
+
+*August 2021–December 2024 · Logan, Utah*
+
+- Assisted in teaching and grading CS 5665 Introduction to Data Science.
+- Assisted in teaching and grading CS 5080/CS 6665 Data Mining.
+
+## Education
+
+### Ph.D. in Computer Science — Utah State University
+
+*August 2020–December 2024*
+
+- **Advisor:** Dr. Shuhan Yuan
+- **Dissertation:** *Interpretable and Robust Deep Anomaly Detection*
+
+### M.S. in Electrical and Computer Engineering — State University of New York at Binghamton
+
+*August 2018–May 2020*
+
+- **Advisor:** Dr. Jian Li
+- **Thesis:** *Consensus-Based Quickest Change Detection in IoT Systems*
+
+### B.E. in Mechanical Engineering — China University of Petroleum (East China)
+
+*September 2012–June 2016*
+
+## Technical skills
+
+### Programming and systems
+
+- Python, SQL, C/C++, Bash, Linux, Git, and Docker.
+
+### Machine learning and LLM frameworks
+
+- PyTorch, TensorFlow, Hugging Face Transformers, PEFT/LoRA, LangChain, LangGraph, FastMCP, and SGLang.
+
+### Cloud and databases
+
+- AWS, GCP, PostgreSQL, MongoDB, SQLite, and Neo4j.
+
+### Research areas and methods
+
+- Large language models, knowledge graphs, multi-agent systems, reinforcement learning, retrieval-augmented generation, interpretable AI, robust machine learning, and anomaly detection.
+
+## Honors and activities
+
+- **Volunteer Lead**, IEEE International Conference on Big Data, 2024.
+- **SDM'24 Doctoral Forum Travel Award ($1,000)**, SIAM International Conference on Data Mining, 2024.
+- **Graduate Student Travel Award**, Utah State University, 2023.
+- **Graduate Student Travel Award**, Utah State University, 2022.

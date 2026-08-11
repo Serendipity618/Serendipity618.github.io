@@ -1,0 +1,59 @@
+---
+title: "LogosKG: Hardware-Optimized Scalable and Interpretable Knowledge Graph Retrieval"
+
+authors:
+  - He Cheng
+  - Yifu Wu
+  - Saksham Khatwani
+  - Maya Kruse
+  - Dmitriy Dligach
+  - Timothy A. Miller
+  - Majid Afshar
+  - Yanjun Gao
+
+date: "2026-07-01T00:00:00Z"
+
+publication: "In *Proceedings of the 64th Annual Meeting of the Association for Computational Linguistics (ACL 2026)*"
+
+abstract: |
+  Knowledge graphs (KGs) are increasingly integrated with large language models (LLMs) to provide structured, verifiable reasoning. A core operation in this integration is multi-hop retrieval, yet existing systems struggle to balance efficiency, scalability, and interpretability. We introduce LogosKG, a novel, hardware-aligned framework that enables scalable and interpretable k-hop retrieval on large KGs by building on symbolic KG formulations and executing traversal as hardware-efficient operations over decomposed subject, object, and relation representations. To scale to billion-edge graphs, LogosKG integrates degree-aware partitioning, cross-graph routing, and on-demand caching. Experiments show substantial efficiency gains over CPU and GPU baselines without loss of retrieval fidelity. With proven performance in KG retrieval, a downstream two-round KG-LLM interaction demonstrates how LogosKG enables large-scale, evidence-grounded analysis of how KG topology, such as hop distribution and connectivity, shapes the alignment between structured biomedical knowledge and LLM diagnostic reasoning, thereby opening the door for next-generation KG-LLM integration. The source code is publicly available at https://github.com/LARK-NLP-Lab/LogosKG, and an online demo is available at https://lark-nlp-lab-logoskg.hf.space/.
+
+summary: "Hardware-optimized, scalable, and interpretable multi-hop retrieval for large knowledge graphs."
+
+tags:
+  - Knowledge Graphs
+  - Large Language Models
+  - Biomedical NLP
+  - Interpretable AI
+
+links:
+  - type: pdf
+    url: "https://aclanthology.org/2026.acl-long.1966.pdf"
+  - type: code
+    url: "https://github.com/LARK-NLP-Lab/LogosKG"
+  - type: custom
+    label: Demo
+    url: "https://lark-nlp-lab-logoskg.hf.space/"
+    icon: globe-alt
+
+include-after-body:
+  - ../../back-to-top.html
+  - ../../bibtex-copy.html
+
+---
+
+<div class="paper-citation-actions">
+<button type="button" class="bibtex-copy" aria-label="Copy BibTeX citation"><i class="bi bi-clipboard"></i><span>BibTeX</span></button>
+<script type="text/plain" class="paper-bibtex-data">@inproceedings{cheng-etal-2026-logoskg,
+  title = {{L}ogos{KG}: Hardware-Optimized Scalable and Interpretable Knowledge Graph Retrieval},
+  author = {Cheng, He and Wu, Yifu and Khatwani, Saksham and Kruse, Maya and Dligach, Dmitriy and Miller, Timothy A. and Afshar, Majid and Gao, Yanjun},
+  booktitle = {Proceedings of the 64th Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers)},
+  month = jul,
+  year = {2026},
+  address = {San Diego, California, United States},
+  publisher = {Association for Computational Linguistics},
+  pages = {42478--42493},
+  doi = {10.18653/v1/2026.acl-long.1966},
+  url = {https://aclanthology.org/2026.acl-long.1966/}
+}</script>
+</div>

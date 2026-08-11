@@ -1,0 +1,15 @@
+---
+title: "Sequential Anomaly Detection with Local and Global Explanations (GLEAD)"
+date: 2022-12-17
+links:
+  - type: publication
+    url: https://ieeexplore.ieee.org/abstract/document/10020990?casa_token=u_NtV0fnSUYAAAAA:MD0Oz2u2TUnaozQPLz85RbveK1HKru9_AoI0tpeYvJ9Ybu8uCWPfXbqvd7_sKY0t5WmQ4g5ZU4w
+tags:
+  - Anomaly Detection
+  - Interpretability
+  - Sequential Data
+---
+
+## GLEAD: Sequential Anomaly Detection with Local and Global Explanations
+
+**GLEAD** is a globally and locally explainable method for sequential anomaly detection. It uses multi-head self-attention and prototypes for normal and abnormal sequences, providing local explanations by highlighting anomalous entries and global explanations by identifying common anomaly patterns across data.

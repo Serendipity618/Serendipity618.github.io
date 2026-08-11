@@ -1,0 +1,198 @@
+- section: Peer-reviewed Conference Papers
+  authors: "**He Cheng**, Yifu Wu, Saksham Khatwani, Maya Kruse, Dmitriy Dligach, Timothy A. Miller, Majid Afshar, and Yanjun Gao"
+  year: 2026
+  date: 2026-07-01
+  title: "LogosKG: Hardware-Optimized Scalable and Interpretable Knowledge Graph Retrieval"
+  path: publications/logoskg/
+  journal: "Proceedings of the 64th Annual Meeting of the Association for Computational Linguistics (ACL 2026)"
+  pages: "42478–42493"
+  doi: 10.18653/v1/2026.acl-long.1966
+  pdf: https://aclanthology.org/2026.acl-long.1966.pdf
+  github: https://github.com/LARK-NLP-Lab/LogosKG
+  demo: https://lark-nlp-lab-logoskg.hf.space/
+  venue: ACL
+  topics: [Knowledge Graphs, Large Language Models, Biomedical NLP]
+  bibtex: |
+    @inproceedings{cheng-etal-2026-logoskg,
+      title = {{L}ogos{KG}: Hardware-Optimized Scalable and Interpretable Knowledge Graph Retrieval},
+      author = {Cheng, He and Wu, Yifu and Khatwani, Saksham and Kruse, Maya and Dligach, Dmitriy and Miller, Timothy A. and Afshar, Majid and Gao, Yanjun},
+      booktitle = {Proceedings of the 64th Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers)},
+      month = jul,
+      year = {2026},
+      address = {San Diego, California, United States},
+      publisher = {Association for Computational Linguistics},
+      pages = {42478--42493},
+      doi = {10.18653/v1/2026.acl-long.1966},
+      url = {https://aclanthology.org/2026.acl-long.1966/}
+    }
+
+- section: Peer-reviewed Conference Papers
+  authors: "**He Cheng**, Depeng Xu, and Shuhan Yuan"
+  year: 2025
+  date: 2025-12-08
+  title: "BadSAD: Clean-Label Backdoor Attacks against Deep Semi-Supervised Anomaly Detection"
+  path: publications/badsad/
+  journal: "2025 IEEE International Conference on Big Data (IEEE BigData 2025)"
+  doi: 10.1109/BigData66926.2025.11402072
+  pdf: https://arxiv.org/pdf/2412.13324
+  venue: IEEE Big Data
+  topics: [Anomaly Detection, Backdoor Attacks, Trustworthy AI]
+  bibtex: |
+    @inproceedings{cheng2025badsad,
+      author = {Cheng, He and Xu, Depeng and Yuan, Shuhan},
+      title = {{BadSAD}: Clean-Label Backdoor Attacks Against Deep Semi-Supervised Anomaly Detection},
+      booktitle = {2025 IEEE International Conference on Big Data (BigData)},
+      year = {2025},
+      pages = {838--845},
+      doi = {10.1109/BigData66926.2025.11402072},
+      publisher = {IEEE}
+    }
+
+- section: Peer-reviewed Conference Papers
+  authors: "**He Cheng**, Depeng Xu, and Shuhan Yuan"
+  year: 2025
+  date: 2025-04-25
+  title: "Backdoor Attack against Log Anomaly Detection Models"
+  path: publications/blog/
+  journal: "Companion Proceedings of the ACM Web Conference 2025"
+  pages: "915–918"
+  doi: 10.1145/3701716.3715533
+  pdf: https://dl.acm.org/doi/pdf/10.1145/3701716.3715533
+  github: https://github.com/Serendipity618/Blog
+  venue: ACM Web Conference
+  topics: [Anomaly Detection, Backdoor Attacks]
+  bibtex: |
+    @inproceedings{cheng2025backdoorlog,
+      author = {Cheng, He and Xu, Depeng and Yuan, Shuhan},
+      title = {Backdoor Attack against Log Anomaly Detection Models},
+      booktitle = {Companion Proceedings of the ACM on Web Conference 2025},
+      year = {2025},
+      pages = {915--918},
+      doi = {10.1145/3701716.3715533},
+      publisher = {Association for Computing Machinery}
+    }
+
+- section: Peer-reviewed Conference Papers
+  authors: "**He Cheng**, Depeng Xu, Shuhan Yuan, and Xintao Wu"
+  year: 2024
+  date: 2024-08-22
+  title: "Achieving Counterfactual Explanation for Sequence Anomaly Detection"
+  path: publications/cfdet/
+  journal: "European Conference on Machine Learning and Principles and Practice of Knowledge Discovery in Databases (ECML PKDD 2024)"
+  volume: 14948
+  pages: "19–35"
+  doi: 10.1007/978-3-031-70371-3_2
+  pdf: https://par.nsf.gov/servlets/purl/10579795
+  github: https://github.com/Serendipity618/CFDet
+  venue: ECML PKDD
+  topics: [Anomaly Detection, Explainable AI]
+  bibtex: |
+    @inproceedings{cheng2024counterfactual,
+      author = {Cheng, He and Xu, Depeng and Yuan, Shuhan and Wu, Xintao},
+      title = {Achieving Counterfactual Explanation for Sequence Anomaly Detection},
+      booktitle = {Machine Learning and Knowledge Discovery in Databases. Research Track and Demo Track},
+      series = {Lecture Notes in Computer Science},
+      volume = {14948},
+      year = {2024},
+      pages = {19--35},
+      doi = {10.1007/978-3-031-70371-3_2},
+      publisher = {Springer}
+    }
+
+- section: Peer-reviewed Conference Papers
+  authors: "**He Cheng** and Shuhan Yuan"
+  year: 2024
+  date: 2024-04-25
+  title: "Backdoor Attack Against One-Class Sequential Anomaly Detection Models"
+  path: publications/ba-ocad/
+  journal: "Pacific-Asia Conference on Knowledge Discovery and Data Mining (PAKDD 2024)"
+  pages: "262–274"
+  doi: 10.1007/978-981-97-2259-4_20
+  pdf: https://arxiv.org/pdf/2402.10283
+  github: https://github.com/Serendipity618/BA-OCAD
+  venue: PAKDD
+  topics: [Anomaly Detection, Backdoor Attacks]
+  bibtex: |
+    @inproceedings{cheng2024backdoor,
+      author = {Cheng, He and Yuan, Shuhan},
+      title = {Backdoor Attack Against One-Class Sequential Anomaly Detection Models},
+      booktitle = {Advances in Knowledge Discovery and Data Mining},
+      series = {Lecture Notes in Computer Science},
+      volume = {14647},
+      year = {2024},
+      pages = {262--274},
+      doi = {10.1007/978-981-97-2259-4_20},
+      publisher = {Springer}
+    }
+
+- section: Peer-reviewed Conference Papers
+  authors: "**He Cheng**, Depeng Xu, and Shuhan Yuan"
+  year: 2023
+  date: 2023-06-18
+  title: "Explainable Sequential Anomaly Detection via Prototypes"
+  path: publications/esad/
+  journal: "International Joint Conference on Neural Networks (IJCNN 2023)"
+  pages: "1–8"
+  doi: 10.1109/IJCNN54540.2023.10191703
+  pdf: https://ieeexplore.ieee.org/iel7/10190990/10190992/10191703.pdf
+  github: https://github.com/Serendipity618/EASD
+  venue: IJCNN
+  topics: [Anomaly Detection, Explainable AI]
+  bibtex: |
+    @inproceedings{cheng2023explainable,
+      author = {Cheng, He and Xu, Depeng and Yuan, Shuhan},
+      title = {Explainable Sequential Anomaly Detection via Prototypes},
+      booktitle = {2023 International Joint Conference on Neural Networks (IJCNN)},
+      year = {2023},
+      pages = {1--8},
+      doi = {10.1109/IJCNN54540.2023.10191703},
+      publisher = {IEEE}
+    }
+
+- section: Peer-reviewed Conference Papers
+  authors: "**He Cheng**, Depeng Xu, and Shuhan Yuan"
+  year: 2022
+  date: 2022-12-17
+  title: "Sequential Anomaly Detection with Local and Global Explanations"
+  path: publications/glead/
+  journal: "IEEE International Conference on Big Data (Big Data 2022)"
+  pages: "1212–1217"
+  doi: 10.1109/BigData55660.2022.10020990
+  pdf: https://ieeexplore.ieee.org/iel7/10020192/10020156/10020990.pdf
+  github: https://github.com/Serendipity618/GLEAD
+  venue: IEEE Big Data
+  topics: [Anomaly Detection, Explainable AI]
+  bibtex: |
+    @inproceedings{cheng2022sequential,
+      author = {Cheng, He and Xu, Depeng and Yuan, Shuhan},
+      title = {Sequential Anomaly Detection with Local and Global Explanations},
+      booktitle = {2022 IEEE International Conference on Big Data (Big Data)},
+      year = {2022},
+      pages = {1212--1217},
+      doi = {10.1109/BigData55660.2022.10020990},
+      publisher = {IEEE}
+    }
+
+- section: Peer-reviewed Conference Papers
+  authors: "Xiao Han, **He Cheng**, Depeng Xu, and Shuhan Yuan"
+  year: 2021
+  date: 2021-12-15
+  title: "InterpretableSAD: Interpretable Anomaly Detection in Sequential Log Data"
+  path: publications/interpretablesad/
+  journal: "IEEE International Conference on Big Data (Big Data 2021)"
+  pages: "1183–1192"
+  doi: 10.1109/BigData52589.2021.9671642
+  pdf: https://ieeexplore.ieee.org/iel7/9671263/9671273/09671642.pdf
+  github: https://github.com/hanxiao0607/InterpretableSAD
+  venue: IEEE Big Data
+  topics: [Anomaly Detection, Explainable AI]
+  bibtex: |
+    @inproceedings{han2021interpretablesad,
+      author = {Han, Xiao and Cheng, He and Xu, Depeng and Yuan, Shuhan},
+      title = {{InterpretableSAD}: Interpretable Anomaly Detection in Sequential Log Data},
+      booktitle = {2021 IEEE International Conference on Big Data (Big Data)},
+      year = {2021},
+      pages = {1183--1192},
+      doi = {10.1109/BigData52589.2021.9671642},
+      publisher = {IEEE}
+    }

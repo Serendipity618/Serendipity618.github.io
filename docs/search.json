@@ -1,0 +1,289 @@
+[
+  {
+    "objectID": "services.html",
+    "href": "services.html",
+    "title": "Services",
+    "section": "",
+    "text": "ACL Rolling Review (ARR), 2026\nInternational Joint Conference on Neural Networks (IJCNN), 2023, 2024, and 2025\nPacific-Asia Conference on Knowledge Discovery and Data Mining (PAKDD), 2025\nInternational Conference on Machine Learning and Applications (ICMLA), 2024\n\n\n\n\n\nACM Transactions on Intelligent Systems and Technology (TIST), 2026\nIEEE Transactions on Computational Social Systems\nConcurrency and Computation: Practice and Experience\nIntelligent Data Analysis"
+  },
+  {
+    "objectID": "services.html#conference-reviewer",
+    "href": "services.html#conference-reviewer",
+    "title": "Services",
+    "section": "",
+    "text": "ACL Rolling Review (ARR), 2026\nInternational Joint Conference on Neural Networks (IJCNN), 2023, 2024, and 2025\nPacific-Asia Conference on Knowledge Discovery and Data Mining (PAKDD), 2025\nInternational Conference on Machine Learning and Applications (ICMLA), 2024"
+  },
+  {
+    "objectID": "services.html#journal-reviewer",
+    "href": "services.html#journal-reviewer",
+    "title": "Services",
+    "section": "",
+    "text": "ACM Transactions on Intelligent Systems and Technology (TIST), 2026\nIEEE Transactions on Computational Social Systems\nConcurrency and Computation: Practice and Experience\nIntelligent Data Analysis"
+  },
+  {
+    "objectID": "publications/interpretablesad/index.html",
+    "href": "publications/interpretablesad/index.html",
+    "title": "InterpretableSAD: Interpretable Anomaly Detection in Sequential Log Data",
+    "section": "",
+    "text": "BibTeX"
+  },
+  {
+    "objectID": "publications/esad/index.html",
+    "href": "publications/esad/index.html",
+    "title": "Explainable Sequential Anomaly Detection via Prototypes",
+    "section": "",
+    "text": "BibTeX"
+  },
+  {
+    "objectID": "publications/blog/index.html",
+    "href": "publications/blog/index.html",
+    "title": "Backdoor Attack against Log Anomaly Detection Models",
+    "section": "",
+    "text": "BibTeX"
+  },
+  {
+    "objectID": "publications/ba-ocad/index.html",
+    "href": "publications/ba-ocad/index.html",
+    "title": "Backdoor Attack Against One-Class Sequential Anomaly Detection Models",
+    "section": "",
+    "text": "BibTeX"
+  },
+  {
+    "objectID": "projects/multi-agent-clinical-reasoning/index.html",
+    "href": "projects/multi-agent-clinical-reasoning/index.html",
+    "title": "Orchestrator-Centered Multi-Agent Systems for Clinical Reasoning",
+    "section": "",
+    "text": "This project develops a multi-agent clinical reasoning system in which specialized large language model agents generate, review, and refine diagnostic predictions through structured multi-step interactions.\nThe central orchestrator learns how to select agents, assign roles, and determine when to stop. The project investigates reinforcement learning methods based on diagnostic performance and inference cost, with the goal of supporting systems aligned with clinical decision-support workflows."
+  },
+  {
+    "objectID": "projects/multi-agent-clinical-reasoning/index.html#orchestrator-centered-multi-agent-systems-for-clinical-reasoning",
+    "href": "projects/multi-agent-clinical-reasoning/index.html#orchestrator-centered-multi-agent-systems-for-clinical-reasoning",
+    "title": "Orchestrator-Centered Multi-Agent Systems for Clinical Reasoning",
+    "section": "",
+    "text": "This project develops a multi-agent clinical reasoning system in which specialized large language model agents generate, review, and refine diagnostic predictions through structured multi-step interactions.\nThe central orchestrator learns how to select agents, assign roles, and determine when to stop. The project investigates reinforcement learning methods based on diagnostic performance and inference cost, with the goal of supporting systems aligned with clinical decision-support workflows."
+  },
+  {
+    "objectID": "projects/glead/index.html",
+    "href": "projects/glead/index.html",
+    "title": "Sequential Anomaly Detection with Local and Global Explanations (GLEAD)",
+    "section": "",
+    "text": "GLEAD is a globally and locally explainable method for sequential anomaly detection. It uses multi-head self-attention and prototypes for normal and abnormal sequences, providing local explanations by highlighting anomalous entries and global explanations by identifying common anomaly patterns across data."
+  },
+  {
+    "objectID": "projects/glead/index.html#glead-sequential-anomaly-detection-with-local-and-global-explanations",
+    "href": "projects/glead/index.html#glead-sequential-anomaly-detection-with-local-and-global-explanations",
+    "title": "Sequential Anomaly Detection with Local and Global Explanations (GLEAD)",
+    "section": "",
+    "text": "GLEAD is a globally and locally explainable method for sequential anomaly detection. It uses multi-head self-attention and prototypes for normal and abnormal sequences, providing local explanations by highlighting anomalous entries and global explanations by identifying common anomaly patterns across data."
+  },
+  {
+    "objectID": "projects/cfdet/index.html",
+    "href": "projects/cfdet/index.html",
+    "title": "Achieving Counterfactual Explanation for Sequence Anomaly Detection (CFDet)",
+    "section": "",
+    "text": "CFDet is a counterfactual explanation framework for one-class sequence anomaly detection models such as Deep SVDD and OC4Seq. It identifies anomalous entries by determining the minimum changes needed to make a sequence normal, supporting security analysis and reducing false alarms."
+  },
+  {
+    "objectID": "projects/cfdet/index.html#cfdet-counterfactual-explanation-for-sequence-anomaly-detection",
+    "href": "projects/cfdet/index.html#cfdet-counterfactual-explanation-for-sequence-anomaly-detection",
+    "title": "Achieving Counterfactual Explanation for Sequence Anomaly Detection (CFDet)",
+    "section": "",
+    "text": "CFDet is a counterfactual explanation framework for one-class sequence anomaly detection models such as Deep SVDD and OC4Seq. It identifies anomalous entries by determining the minimum changes needed to make a sequence normal, supporting security analysis and reducing false alarms."
+  },
+  {
+    "objectID": "projects/badsad/index.html",
+    "href": "projects/badsad/index.html",
+    "title": "BadSAD: Clean-Label Backdoor Attacks against Deep Semi-Supervised Anomaly Detection",
+    "section": "",
+    "text": "BadSAD is a clean-label backdoor attack against Deep Semi-Supervised Anomaly Detection (DeepSAD) models. It combines trigger injection in normal images with latent-space poisoning so that triggered anomalies are misclassified as normal.\n\n\n\nPublished in the 2025 IEEE International Conference on Big Data (IEEE BigData 2025)."
+  },
+  {
+    "objectID": "projects/badsad/index.html#badsad-clean-label-backdoor-attacks-against-deep-semi-supervised-anomaly-detection",
+    "href": "projects/badsad/index.html#badsad-clean-label-backdoor-attacks-against-deep-semi-supervised-anomaly-detection",
+    "title": "BadSAD: Clean-Label Backdoor Attacks against Deep Semi-Supervised Anomaly Detection",
+    "section": "",
+    "text": "BadSAD is a clean-label backdoor attack against Deep Semi-Supervised Anomaly Detection (DeepSAD) models. It combines trigger injection in normal images with latent-space poisoning so that triggered anomalies are misclassified as normal.\n\n\n\nPublished in the 2025 IEEE International Conference on Big Data (IEEE BigData 2025)."
+  },
+  {
+    "objectID": "projects.html",
+    "href": "projects.html",
+    "title": "Projects",
+    "section": "",
+    "text": "My research spans efficient knowledge graph retrieval, multi-agent clinical reasoning, and interpretable and robust anomaly detection.\n\n\n\nOrchestrator-Centered Multi-Agent Systems for Clinical Reasoning\nSpecialized large language model agents generate, review, and refine diagnostic predictions through structured multi-step interactions, coordinated by a reinforcement-learning orchestrator.\n\nMulti-Agent SystemsLLMsReinforcement LearningClinical AI\n\n\n\nBadSAD\nClean-label backdoor attacks against deep semi-supervised anomaly detection models.\nPaper\n\nAnomaly DetectionBackdoor AttacksTrustworthy AI\n\n\n\nLogosKG\nHardware-optimized, scalable, and interpretable multi-hop retrieval over large knowledge graphs.\nPaper · Code\n\nKnowledge GraphsLLMsBiomedical NLP\n\n\n\nBLOG\nA backdoor attack framework designed for log anomaly detection models.\nPaper · Code\n\nAnomaly DetectionBackdoor AttacksLog Data\n\n\n\nCFDet\nCounterfactual explanations for sequence anomaly detection that identify minimal changes needed to convert an anomalous sequence into a normal one.\nPaper · Code\n\nAnomaly DetectionCounterfactual ExplanationSequence Modeling\n\n\n\nBA-OCAD\nA clean-label backdoor attack framework targeting one-class sequential anomaly detection models.\nPaper · Code\n\nAnomaly DetectionBackdoor AttacksSecurity\n\n\n\nEASD\nPrototype-based explainable sequential anomaly detection with human-understandable explanations.\nPaper · Code\n\nAnomaly DetectionExplainabilityPrototypes\n\n\n\nGLEAD\nSequential anomaly detection with both local explanations and global explanations.\nPaper · Code\n\nAnomaly DetectionInterpretabilitySequential Data"
+  },
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "He Cheng",
+    "section": "",
+    "text": "Biomedical Informatics · Machine Learning · Knowledge Graphs\n\n\n\n\nPronounced “Huh Chung” · he/him\n\n\nPostdoctoral Researcher in Biomedical InformaticsUniversity of Colorado Anschutz Medical Campus\n\nI am a machine learning researcher working on large language models, knowledge graphs, multi-agent systems, and trustworthy AI.\n\nEmail CV Google Scholar GitHub ORCID LinkedIn"
+  },
+  {
+    "objectID": "index.html#about-me",
+    "href": "index.html#about-me",
+    "title": "He Cheng",
+    "section": "About me",
+    "text": "About me\nHe Cheng, Ph.D., is a Postdoctoral Researcher in the Department of Biomedical Informatics at the University of Colorado Anschutz Medical Campus. His current research focuses on scalable retrieval over large biomedical knowledge graphs and reinforcement learning for multi-agent clinical reasoning.\nHis previous research focused on interpretable and robust anomaly detection, including local, global, counterfactual, and prototype-based explanations, as well as backdoor attacks against anomaly detection models. He earned a Ph.D. in Computer Science from Utah State University, an M.S. in Electrical and Computer Engineering from the State University of New York at Binghamton, and a B.E. in Mechanical Engineering from China University of Petroleum (East China)."
+  },
+  {
+    "objectID": "index.html#my-research",
+    "href": "index.html#my-research",
+    "title": "He Cheng",
+    "section": "My research",
+    "text": "My research\nI develop scalable methods for multi-hop retrieval over large biomedical knowledge graphs and integrate retrieved evidence with large language models for clinical applications. I also develop orchestrator-centered multi-agent systems, using reinforcement learning for agent selection, role assignment, and stopping decisions.\nMy earlier work includes counterfactual explanations (CFDet), local and global explanations (GLEAD), prototype-based explanations, and backdoor attack frameworks (BLOG, BA-OCAD, and BadSAD) for anomaly detection."
+  },
+  {
+    "objectID": "index.html#research-interests",
+    "href": "index.html#research-interests",
+    "title": "He Cheng",
+    "section": "Research interests",
+    "text": "Research interests\n\n\nLanguage models and biomedical applications\nLarge language models, retrieval-augmented generation, and reliable machine learning for biomedical applications.\n\n\nKnowledge graph reasoning\nEfficient, scalable, and interpretable multi-hop retrieval over large biomedical knowledge graphs.\n\n\nMulti-agent systems\nOrchestrator-centered multi-agent systems and reinforcement learning for clinical reasoning.\n\n\nInterpretable and robust ML\nModel transparency, anomaly detection, and robustness against backdoor attacks."
+  },
+  {
+    "objectID": "index.html#recent-highlights",
+    "href": "index.html#recent-highlights",
+    "title": "He Cheng",
+    "section": "Recent highlights",
+    "text": "Recent highlights\n\n\nLogosKG accepted to ACL 2026\nOur paper, “LogosKG: Hardware-Optimized Scalable and Interpretable Knowledge Graph Retrieval,” was accepted to the 64th Annual Meeting of the Association for Computational Linguistics.\nPaper · Code · Online demo\n\n\nBadSAD at IEEE Big Data 2025\n“BadSAD: Clean-Label Backdoor Attacks against Deep Semi-Supervised Anomaly Detection” appears in the proceedings of the 2025 IEEE International Conference on Big Data.\nPaper\n\n\n\nView all papers → View all news →"
+  },
+  {
+    "objectID": "experience.html",
+    "href": "experience.html",
+    "title": "Experience",
+    "section": "",
+    "text": "July 2025–present · Aurora, Colorado\n\nDevelop scalable methods for multi-hop retrieval over large biomedical knowledge graphs and integrate retrieved evidence with large language models for clinical applications.\nDevelop orchestrator-centered multi-agent systems for clinical prediction, including reinforcement learning for agent selection, role assignment, and stopping decisions.\nWork with clinicians and researchers on systems aligned with diagnostic and clinical decision-support workflows.\n\n\n\n\nJanuary 2025–June 2025 · Logan, Utah\n\nCollaborated with Dr. Shuhan Yuan to finalize academic publications and extend experimental evaluations of deep anomaly detection models.\n\n\n\n\nAugust 2020–December 2024 · Logan, Utah\n\nDesigned and implemented machine-learning pipelines for log anomaly detection using PyTorch and TensorFlow.\nDeveloped counterfactual explanations, global and local interpretability, and prototype-based insights for deep anomaly-detection systems.\nConfigured SSH access, managed distributed servers, automated system monitoring with Bash, and analyzed resource usage for machine-learning experiments.\n\n\n\n\nAugust 2021–December 2024 · Logan, Utah\n\nAssisted in teaching and grading CS 5665 Introduction to Data Science.\nAssisted in teaching and grading CS 5080/CS 6665 Data Mining."
+  },
+  {
+    "objectID": "experience.html#professional-experience",
+    "href": "experience.html#professional-experience",
+    "title": "Experience",
+    "section": "",
+    "text": "July 2025–present · Aurora, Colorado\n\nDevelop scalable methods for multi-hop retrieval over large biomedical knowledge graphs and integrate retrieved evidence with large language models for clinical applications.\nDevelop orchestrator-centered multi-agent systems for clinical prediction, including reinforcement learning for agent selection, role assignment, and stopping decisions.\nWork with clinicians and researchers on systems aligned with diagnostic and clinical decision-support workflows.\n\n\n\n\nJanuary 2025–June 2025 · Logan, Utah\n\nCollaborated with Dr. Shuhan Yuan to finalize academic publications and extend experimental evaluations of deep anomaly detection models.\n\n\n\n\nAugust 2020–December 2024 · Logan, Utah\n\nDesigned and implemented machine-learning pipelines for log anomaly detection using PyTorch and TensorFlow.\nDeveloped counterfactual explanations, global and local interpretability, and prototype-based insights for deep anomaly-detection systems.\nConfigured SSH access, managed distributed servers, automated system monitoring with Bash, and analyzed resource usage for machine-learning experiments.\n\n\n\n\nAugust 2021–December 2024 · Logan, Utah\n\nAssisted in teaching and grading CS 5665 Introduction to Data Science.\nAssisted in teaching and grading CS 5080/CS 6665 Data Mining."
+  },
+  {
+    "objectID": "experience.html#education",
+    "href": "experience.html#education",
+    "title": "Experience",
+    "section": "Education",
+    "text": "Education\n\nPh.D. in Computer Science — Utah State University\nAugust 2020–December 2024\n\nAdvisor: Dr. Shuhan Yuan\nDissertation: Interpretable and Robust Deep Anomaly Detection\n\n\n\nM.S. in Electrical and Computer Engineering — State University of New York at Binghamton\nAugust 2018–May 2020\n\nAdvisor: Dr. Jian Li\nThesis: Consensus-Based Quickest Change Detection in IoT Systems\n\n\n\nB.E. in Mechanical Engineering — China University of Petroleum (East China)\nSeptember 2012–June 2016"
+  },
+  {
+    "objectID": "experience.html#technical-skills",
+    "href": "experience.html#technical-skills",
+    "title": "Experience",
+    "section": "Technical skills",
+    "text": "Technical skills\n\nProgramming and systems\n\nPython, SQL, C/C++, Bash, Linux, Git, and Docker.\n\n\n\nMachine learning and LLM frameworks\n\nPyTorch, TensorFlow, Hugging Face Transformers, PEFT/LoRA, LangChain, LangGraph, FastMCP, and SGLang.\n\n\n\nCloud and databases\n\nAWS, GCP, PostgreSQL, MongoDB, SQLite, and Neo4j.\n\n\n\nResearch areas and methods\n\nLarge language models, knowledge graphs, multi-agent systems, reinforcement learning, retrieval-augmented generation, interpretable AI, robust machine learning, and anomaly detection."
+  },
+  {
+    "objectID": "experience.html#honors-and-activities",
+    "href": "experience.html#honors-and-activities",
+    "title": "Experience",
+    "section": "Honors and activities",
+    "text": "Honors and activities\n\nVolunteer Lead, IEEE International Conference on Big Data, 2024.\nSDM’24 Doctoral Forum Travel Award ($1,000), SIAM International Conference on Data Mining, 2024.\nGraduate Student Travel Award, Utah State University, 2023.\nGraduate Student Travel Award, Utah State University, 2022."
+  },
+  {
+    "objectID": "news.html",
+    "href": "news.html",
+    "title": "News & Milestones",
+    "section": "",
+    "text": "Paper Accepted — ACL 2026\n\nApril 4, 2026\n\nOur paper, “LogosKG: Hardware-Optimized Scalable and Interpretable Knowledge Graph Retrieval,” was accepted to the 64th Annual Meeting of the Association for Computational Linguistics. The paper, code, and online demo are publicly available.\n\n\n\n\n\nBadSAD Published — IEEE Big Data 2025\n\nDecember 2025\n\nOur paper, “BadSAD: Clean-Label Backdoor Attacks against Deep Semi-Supervised Anomaly Detection,” appeared in the proceedings of the 2025 IEEE International Conference on Big Data. Paper\n\n\n\n\n\nJoined CU Anschutz as a Postdoctoral Researcher\n\nJuly 2025\n\nJoined the Department of Biomedical Informatics at the University of Colorado Anschutz Medical Campus. My work focuses on biomedical knowledge-graph retrieval, large language model reasoning, and multi-agent systems for clinical applications.\n\n\n\n\n\nPh.D. Dissertation Defense — Completed\n\nUtah State University · December 2024\n\nSuccessfully defended my dissertation, “Interpretable and Robust Deep Anomaly Detection,” and completed the Ph.D. in Computer Science at Utah State University.\n\n\n\n\n\nVolunteer Lead — IEEE Big Data 2024\n\nDecember 2024\n\nServed as Volunteer Lead for the 2024 IEEE International Conference on Big Data.\n\n\n\n\n\nPaper Published — ECML PKDD 2024\n\nAugust 22, 2024\n\nOur paper, “Achieving Counterfactual Explanation for Sequence Anomaly Detection,” presented a framework for identifying minimal changes that transform an anomalous sequence into a normal one. Paper · Code\n\n\n\n\n\nPaper Published — PAKDD 2024\n\nApril 25, 2024\n\nOur paper, “Backdoor Attack Against One-Class Sequential Anomaly Detection Models,” studied clean-label backdoor attacks against one-class sequential anomaly-detection models. Paper · Code\n\n\n\n\n\nDoctoral Forum Travel Award — SDM 2024\n\nApril 2024\n\nReceived the $1,000 SDM’24 Doctoral Forum Travel Award.\n\n\n\n\n\nPh.D. Proposal Defense — Passed\n\nUtah State University · March 2024\n\nSuccessfully defended my doctoral research proposal on interpretable and robust deep anomaly detection, covering anomaly detection, model interpretability, and robustness against backdoor attacks.\n\n\n\n\n\nPaper Published — IJCNN 2023\n\nJune 18, 2023\n\nOur paper, “Explainable Sequential Anomaly Detection via Prototypes,” developed a prototype-based framework for explaining sequential anomaly-detection results. Paper · Code\n\n\n\n\n\nPaper Published — IEEE Big Data 2022\n\nDecember 17, 2022\n\nOur paper, “Sequential Anomaly Detection with Local and Global Explanations,” introduced local explanations for individual anomalies and global explanations for recurring anomaly patterns. Paper · Code\n\n\n\n\n\nPaper Published — IEEE Big Data 2021\n\nDecember 15, 2021\n\nOur paper, “InterpretableSAD: Interpretable Anomaly Detection in Sequential Log Data,” presented an interpretable approach to sequential log anomaly detection. Paper · Code"
+  },
+  {
+    "objectID": "projects/ba-ocad/index.html",
+    "href": "projects/ba-ocad/index.html",
+    "title": "Backdoor Attack Against One-Class Sequential Anomaly Detection Models (BA-OCAD)",
+    "section": "",
+    "text": "BA-OCAD is a backdoor attack framework for one-class sequential anomaly detection models such as Deep SVDD and OC4Seq. It uses trigger generation and backdoor injection to allow anomalies to evade detection while maintaining benign performance."
+  },
+  {
+    "objectID": "projects/ba-ocad/index.html#ba-ocad-backdoor-attack-against-one-class-sequential-anomaly-detection-models",
+    "href": "projects/ba-ocad/index.html#ba-ocad-backdoor-attack-against-one-class-sequential-anomaly-detection-models",
+    "title": "Backdoor Attack Against One-Class Sequential Anomaly Detection Models (BA-OCAD)",
+    "section": "",
+    "text": "BA-OCAD is a backdoor attack framework for one-class sequential anomaly detection models such as Deep SVDD and OC4Seq. It uses trigger generation and backdoor injection to allow anomalies to evade detection while maintaining benign performance."
+  },
+  {
+    "objectID": "projects/blog/index.html",
+    "href": "projects/blog/index.html",
+    "title": "Backdoor Attack against Log Anomaly Detection Models (BLOG)",
+    "section": "",
+    "text": "BLOG is a backdoor attack framework for self-supervised log anomaly detection models such as DeepLog and LogBERT. It combines data poisoning using normal log entries with a modified training objective, allowing abnormal logs to evade detection while maintaining benign performance."
+  },
+  {
+    "objectID": "projects/blog/index.html#blog-backdoor-attack-against-log-anomaly-detection-models",
+    "href": "projects/blog/index.html#blog-backdoor-attack-against-log-anomaly-detection-models",
+    "title": "Backdoor Attack against Log Anomaly Detection Models (BLOG)",
+    "section": "",
+    "text": "BLOG is a backdoor attack framework for self-supervised log anomaly detection models such as DeepLog and LogBERT. It combines data poisoning using normal log entries with a modified training objective, allowing abnormal logs to evade detection while maintaining benign performance."
+  },
+  {
+    "objectID": "projects/esad/index.html",
+    "href": "projects/esad/index.html",
+    "title": "Explainable Sequential Anomaly Detection via Prototypes (EASD)",
+    "section": "",
+    "text": "This project develops a prototype-based framework for explainable sequential anomaly detection. Multiple prototypes represent different normal and abnormal sequence patterns, while contrastive learning and k-means clustering support instance-based explanations."
+  },
+  {
+    "objectID": "projects/esad/index.html#easd-explainable-sequential-anomaly-detection-via-prototypes",
+    "href": "projects/esad/index.html#easd-explainable-sequential-anomaly-detection-via-prototypes",
+    "title": "Explainable Sequential Anomaly Detection via Prototypes (EASD)",
+    "section": "",
+    "text": "This project develops a prototype-based framework for explainable sequential anomaly detection. Multiple prototypes represent different normal and abnormal sequence patterns, while contrastive learning and k-means clustering support instance-based explanations."
+  },
+  {
+    "objectID": "projects/logoskg/index.html",
+    "href": "projects/logoskg/index.html",
+    "title": "LogosKG: Scalable and Interpretable Knowledge Graph Retrieval",
+    "section": "",
+    "text": "LogosKG provides efficient, scalable, and interpretable multi-hop retrieval over large knowledge graphs. It uses matrix-based representations and GPU acceleration to support biomedical knowledge graphs at billion-edge scale.\nThe project integrates knowledge graph retrieval with large language models to support evidence-grounded responses and improve reliability in biomedical applications such as clinical diagnosis verification and decision support.\n\n\n\nPublished at the 64th Annual Meeting of the Association for Computational Linguistics (ACL 2026)."
+  },
+  {
+    "objectID": "projects/logoskg/index.html#logoskg-hardware-optimized-knowledge-graph-retrieval",
+    "href": "projects/logoskg/index.html#logoskg-hardware-optimized-knowledge-graph-retrieval",
+    "title": "LogosKG: Scalable and Interpretable Knowledge Graph Retrieval",
+    "section": "",
+    "text": "LogosKG provides efficient, scalable, and interpretable multi-hop retrieval over large knowledge graphs. It uses matrix-based representations and GPU acceleration to support biomedical knowledge graphs at billion-edge scale.\nThe project integrates knowledge graph retrieval with large language models to support evidence-grounded responses and improve reliability in biomedical applications such as clinical diagnosis verification and decision support.\n\n\n\nPublished at the 64th Annual Meeting of the Association for Computational Linguistics (ACL 2026)."
+  },
+  {
+    "objectID": "publications.html",
+    "href": "publications.html",
+    "title": "Papers",
+    "section": "",
+    "text": "Explore the publication list\n\n\n\nReset filters\n\n\nSearch\n\nYearAll202620252024202320222021\n\n\nVenueAllACLIEEE Big DataACM Web ConferenceECML PKDDPAKDDIJCNN\n\n\nTopicAllKnowledge GraphsLarge Language ModelsBiomedical NLPAnomaly DetectionBackdoor AttacksExplainable AITrustworthy AI\n\n\n8 papers"
+  },
+  {
+    "objectID": "publications.html#peer-reviewed-conference-papers",
+    "href": "publications.html#peer-reviewed-conference-papers",
+    "title": "Papers",
+    "section": "Peer-reviewed conference papers",
+    "text": "Peer-reviewed conference papers\n\n\n\n\n2026ACLKnowledge GraphsLarge Language ModelsBiomedical NLP\n\n\nLogosKG: Hardware-Optimized Scalable and Interpretable Knowledge Graph Retrieval\n\n\nHe Cheng, Yifu Wu, Saksham Khatwani, Maya Kruse, Dmitriy Dligach, Timothy A. Miller, Majid Afshar, and Yanjun Gao\n\n\nProceedings of the 64th Annual Meeting of the Association for Computational Linguistics (ACL 2026)42478–42493DOI: 10.18653/v1/2026.acl-long.1966\n\n\n PDF Code DemoBibTeX\n\n\n\n\n\n2025IEEE Big DataAnomaly DetectionBackdoor AttacksTrustworthy AI\n\n\nBadSAD: Clean-Label Backdoor Attacks against Deep Semi-Supervised Anomaly Detection\n\n\nHe Cheng, Depeng Xu, and Shuhan Yuan\n\n\n2025 IEEE International Conference on Big Data (IEEE BigData 2025)DOI: 10.1109/BigData66926.2025.11402072\n\n\n PDFBibTeX\n\n\n\n\n\n2025ACM Web ConferenceAnomaly DetectionBackdoor Attacks\n\n\nBackdoor Attack against Log Anomaly Detection Models\n\n\nHe Cheng, Depeng Xu, and Shuhan Yuan\n\n\nCompanion Proceedings of the ACM Web Conference 2025915–918DOI: 10.1145/3701716.3715533\n\n\n PDF CodeBibTeX\n\n\n\n\n\n2024ECML PKDDAnomaly DetectionExplainable AI\n\n\nAchieving Counterfactual Explanation for Sequence Anomaly Detection\n\n\nHe Cheng, Depeng Xu, Shuhan Yuan, and Xintao Wu\n\n\nEuropean Conference on Machine Learning and Principles and Practice of Knowledge Discovery in Databases (ECML PKDD 2024)14948: 19–35DOI: 10.1007/978-3-031-70371-3_2\n\n\n PDF CodeBibTeX\n\n\n\n\n\n2024PAKDDAnomaly DetectionBackdoor Attacks\n\n\nBackdoor Attack Against One-Class Sequential Anomaly Detection Models\n\n\nHe Cheng and Shuhan Yuan\n\n\nPacific-Asia Conference on Knowledge Discovery and Data Mining (PAKDD 2024)262–274DOI: 10.1007/978-981-97-2259-4_20\n\n\n PDF CodeBibTeX\n\n\n\n\n\n2023IJCNNAnomaly DetectionExplainable AI\n\n\nExplainable Sequential Anomaly Detection via Prototypes\n\n\nHe Cheng, Depeng Xu, and Shuhan Yuan\n\n\nInternational Joint Conference on Neural Networks (IJCNN 2023)1–8DOI: 10.1109/IJCNN54540.2023.10191703\n\n\n PDF CodeBibTeX\n\n\n\n\n\n2022IEEE Big DataAnomaly DetectionExplainable AI\n\n\nSequential Anomaly Detection with Local and Global Explanations\n\n\nHe Cheng, Depeng Xu, and Shuhan Yuan\n\n\nIEEE International Conference on Big Data (Big Data 2022)1212–1217DOI: 10.1109/BigData55660.2022.10020990\n\n\n PDF CodeBibTeX\n\n\n\n\n\n2021IEEE Big DataAnomaly DetectionExplainable AI\n\n\nInterpretableSAD: Interpretable Anomaly Detection in Sequential Log Data\n\n\nXiao Han, He Cheng, Depeng Xu, and Shuhan Yuan\n\n\nIEEE International Conference on Big Data (Big Data 2021)1183–1192DOI: 10.1109/BigData52589.2021.9671642\n\n\n PDF CodeBibTeX\n\n\n\n\nNo matching items"
+  },
+  {
+    "objectID": "publications/badsad/index.html",
+    "href": "publications/badsad/index.html",
+    "title": "BadSAD: Clean-Label Backdoor Attacks against Deep Semi-Supervised Anomaly Detection",
+    "section": "",
+    "text": "BibTeX"
+  },
+  {
+    "objectID": "publications/cfdet/index.html",
+    "href": "publications/cfdet/index.html",
+    "title": "Achieving Counterfactual Explanation for Sequence Anomaly Detection",
+    "section": "",
+    "text": "BibTeX"
+  },
+  {
+    "objectID": "publications/glead/index.html",
+    "href": "publications/glead/index.html",
+    "title": "Sequential Anomaly Detection with Local and Global Explanations",
+    "section": "",
+    "text": "BibTeX"
+  },
+  {
+    "objectID": "publications/logoskg/index.html",
+    "href": "publications/logoskg/index.html",
+    "title": "LogosKG: Hardware-Optimized Scalable and Interpretable Knowledge Graph Retrieval",
+    "section": "",
+    "text": "BibTeX"
+  }
+]

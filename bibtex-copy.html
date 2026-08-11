@@ -1,0 +1,53 @@
+<script>
+document.addEventListener("DOMContentLoaded", () => {
+  const fallbackCopy = (text) => {
+    const textarea = document.createElement("textarea");
+    textarea.value = text;
+    textarea.setAttribute("readonly", "");
+    textarea.style.position = "fixed";
+    textarea.style.opacity = "0";
+    document.body.appendChild(textarea);
+    textarea.select();
+    const copied = document.execCommand("copy");
+    textarea.remove();
+    if (!copied) throw new Error("Copy command failed");
+  };
+
+  document.querySelectorAll(".bibtex-copy").forEach((button) => {
+    button.addEventListener("click", async () => {
+      const container = button.closest(".pub-item, .paper-citation-actions");
+      const source = container?.querySelector(".paper-bibtex-data");
+      const bibtex = source?.textContent.trim();
+      if (!bibtex) return;
+
+      try {
+        if (navigator.clipboard && window.isSecureContext) {
+          try {
+            await navigator.clipboard.writeText(bibtex);
+          } catch {
+            fallbackCopy(bibtex);
+          }
+        } else {
+          fallbackCopy(bibtex);
+        }
+
+        const label = button.querySelector("span");
+        const original = label?.textContent || "BibTeX";
+        button.classList.add("is-copied");
+        if (label) label.textContent = "Copied";
+        button.setAttribute("aria-label", "BibTeX citation copied");
+
+        window.setTimeout(() => {
+          button.classList.remove("is-copied");
+          if (label) label.textContent = original;
+          button.setAttribute("aria-label", "Copy BibTeX citation");
+        }, 1800);
+      } catch {
+        button.classList.add("copy-failed");
+        button.setAttribute("aria-label", "Unable to copy BibTeX citation");
+        window.setTimeout(() => button.classList.remove("copy-failed"), 1800);
+      }
+    });
+  });
+});
+</script>

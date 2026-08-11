@@ -1,0 +1,49 @@
+---
+title: "Achieving Counterfactual Explanation for Sequence Anomaly Detection"
+
+authors:
+  - He Cheng
+  - Depeng Xu
+  - Shuhan Yuan
+  - Xintao Wu
+
+date: "2024-08-22T00:00:00Z"
+
+publication: "In *European Conference on Machine Learning and Principles and Practice of Knowledge Discovery in Databases (ECML PKDD 2024)*"
+
+abstract: |
+  Anomaly detection on discrete sequential data has been investigated for a long time because of its potential in various applications, such as detecting novel attacks or abnormal system behaviors from log messages. Although many approaches can achieve good performance on anomalous sequence detection, how to explain the detection results is still challenging due to the discrete nature of sequential data. Specifically, given a sequence that is detected as anomalous, the explanation is to highlight those anomalous entries in the sequence leading to the anomalous outcome. To this end, we propose a novel framework, called CFDet, that can explain the detection results of one-class sequence anomaly detection models by highlighting the anomalous entries in the sequences based on the idea of counterfactual explanation. Experimental results on three datasets show that CFDet can provide explanations by correctly detecting anomalous entries.
+
+summary: "Counterfactual explanations for sequence anomaly detection, providing interpretable insights."
+
+tags:
+  - Anomaly Detection
+  - Counterfactual Explanation
+  - Sequence Modeling
+
+links:
+  - type: pdf
+    url: "https://par.nsf.gov/servlets/purl/10579795"
+  - type: code
+    url: "https://github.com/Serendipity618/CFDet"
+
+include-after-body:
+  - ../../back-to-top.html
+  - ../../bibtex-copy.html
+
+---
+
+<div class="paper-citation-actions">
+<button type="button" class="bibtex-copy" aria-label="Copy BibTeX citation"><i class="bi bi-clipboard"></i><span>BibTeX</span></button>
+<script type="text/plain" class="paper-bibtex-data">@inproceedings{cheng2024counterfactual,
+  author = {Cheng, He and Xu, Depeng and Yuan, Shuhan and Wu, Xintao},
+  title = {Achieving Counterfactual Explanation for Sequence Anomaly Detection},
+  booktitle = {Machine Learning and Knowledge Discovery in Databases. Research Track and Demo Track},
+  series = {Lecture Notes in Computer Science},
+  volume = {14948},
+  year = {2024},
+  pages = {19--35},
+  doi = {10.1007/978-3-031-70371-3_2},
+  publisher = {Springer}
+}</script>
+</div>

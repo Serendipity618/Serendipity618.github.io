@@ -1,0 +1,15 @@
+---
+title: "Achieving Counterfactual Explanation for Sequence Anomaly Detection (CFDet)"
+date: 2024-08-22
+links:
+  - type: publication
+    url: https://link.springer.com/chapter/10.1007/978-3-031-70371-3_2 
+tags:
+  - Anomaly Detection
+  - Counterfactual Explanation
+  - Sequence Modeling
+---
+
+## CFDet: Counterfactual Explanation for Sequence Anomaly Detection
+
+**CFDet** is a counterfactual explanation framework for one-class sequence anomaly detection models such as Deep SVDD and OC4Seq. It identifies anomalous entries by determining the minimum changes needed to make a sequence normal, supporting security analysis and reducing false alarms.

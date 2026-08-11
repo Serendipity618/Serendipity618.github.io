@@ -1,0 +1,29 @@
+---
+title: "LogosKG: Scalable and Interpretable Knowledge Graph Retrieval"
+date: 2025-07-01
+links:
+  - type: publication
+    url: https://aclanthology.org/2026.acl-long.1966/
+  - type: code
+    url: https://github.com/LARK-NLP-Lab/LogosKG
+  - type: custom
+    label: Demo
+    url: https://lark-nlp-lab-logoskg.hf.space/
+    icon: globe-alt
+tags:
+  - Knowledge Graphs
+  - Large Language Models
+  - Biomedical NLP
+---
+
+## LogosKG: Hardware-Optimized Knowledge Graph Retrieval
+
+**LogosKG** provides efficient, scalable, and interpretable multi-hop retrieval over large knowledge graphs. It uses matrix-based representations and GPU acceleration to support biomedical knowledge graphs at billion-edge scale.
+
+The project integrates knowledge graph retrieval with large language models to support evidence-grounded responses and improve reliability in biomedical applications such as clinical diagnosis verification and decision support.
+
+---
+
+### Publication
+
+Published at the **64th Annual Meeting of the Association for Computational Linguistics (ACL 2026)**.

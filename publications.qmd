@@ -1,0 +1,86 @@
+---
+title: "Papers"
+description: "Peer-reviewed publications."
+title-block-banner: false
+toc: false
+listing:
+  - id: peer-reviewed
+    contents: publications.yml
+    type: custom
+    sort: "date desc"
+    page-size: 100
+    categories: false
+    template: pub-listing.ejs
+    include:
+      section: "Peer-reviewed Conference Papers"
+css: pub-listing.css
+include-after-body:
+  - back-to-top.html
+  - bibtex-copy.html
+---
+
+<div class="paper-filter-panel" aria-label="Publication filters">
+<div class="paper-filter-heading"><div><span class="filter-eyebrow">Explore the publication list</span><h2>Filter papers</h2></div><button type="button" class="filter-reset" id="paper-filter-reset">Reset filters</button></div>
+<label class="paper-search"><span>Search</span><input type="search" id="paper-search" placeholder="Title, author, venue, or topic" autocomplete="off"></label>
+<div class="filter-group" data-filter-group="year"><span class="filter-label">Year</span><button type="button" class="filter-chip active" data-filter-value="all">All</button><button type="button" class="filter-chip" data-filter-value="2026">2026</button><button type="button" class="filter-chip" data-filter-value="2025">2025</button><button type="button" class="filter-chip" data-filter-value="2024">2024</button><button type="button" class="filter-chip" data-filter-value="2023">2023</button><button type="button" class="filter-chip" data-filter-value="2022">2022</button><button type="button" class="filter-chip" data-filter-value="2021">2021</button></div>
+<div class="filter-group" data-filter-group="venue"><span class="filter-label">Venue</span><button type="button" class="filter-chip active" data-filter-value="all">All</button><button type="button" class="filter-chip" data-filter-value="ACL">ACL</button><button type="button" class="filter-chip" data-filter-value="IEEE Big Data">IEEE Big Data</button><button type="button" class="filter-chip" data-filter-value="ACM Web Conference">ACM Web Conference</button><button type="button" class="filter-chip" data-filter-value="ECML PKDD">ECML PKDD</button><button type="button" class="filter-chip" data-filter-value="PAKDD">PAKDD</button><button type="button" class="filter-chip" data-filter-value="IJCNN">IJCNN</button></div>
+<div class="filter-group" data-filter-group="topic"><span class="filter-label">Topic</span><button type="button" class="filter-chip active" data-filter-value="all">All</button><button type="button" class="filter-chip" data-filter-value="Knowledge Graphs">Knowledge Graphs</button><button type="button" class="filter-chip" data-filter-value="Large Language Models">Large Language Models</button><button type="button" class="filter-chip" data-filter-value="Biomedical NLP">Biomedical NLP</button><button type="button" class="filter-chip" data-filter-value="Anomaly Detection">Anomaly Detection</button><button type="button" class="filter-chip" data-filter-value="Backdoor Attacks">Backdoor Attacks</button><button type="button" class="filter-chip" data-filter-value="Explainable AI">Explainable AI</button><button type="button" class="filter-chip" data-filter-value="Trustworthy AI">Trustworthy AI</button></div>
+<div class="paper-result-count" id="paper-result-count" aria-live="polite">8 papers</div>
+</div>
+
+## Peer-reviewed conference papers
+
+::: {#peer-reviewed}
+:::
+
+<script>
+document.addEventListener("DOMContentLoaded", () => {
+  const state = { year: "all", venue: "all", topic: "all", search: "" };
+  const items = Array.from(document.querySelectorAll(".pub-item"));
+  const count = document.getElementById("paper-result-count");
+  const search = document.getElementById("paper-search");
+
+  const applyFilters = () => {
+    let visible = 0;
+    items.forEach((item) => {
+      const topics = (item.dataset.topics || "").split("|");
+      const matches =
+        (state.year === "all" || item.dataset.year === state.year) &&
+        (state.venue === "all" || item.dataset.venue === state.venue) &&
+        (state.topic === "all" || topics.includes(state.topic)) &&
+        (!state.search || item.textContent.toLowerCase().includes(state.search));
+      item.hidden = !matches;
+      if (matches) visible += 1;
+    });
+    count.textContent = `${visible} ${visible === 1 ? "paper" : "papers"}`;
+  };
+
+  document.querySelectorAll(".filter-group").forEach((group) => {
+    group.querySelectorAll(".filter-chip").forEach((button) => {
+      button.addEventListener("click", () => {
+        group.querySelectorAll(".filter-chip").forEach((chip) => chip.classList.remove("active"));
+        button.classList.add("active");
+        state[group.dataset.filterGroup] = button.dataset.filterValue;
+        applyFilters();
+      });
+    });
+  });
+
+  search.addEventListener("input", () => {
+    state.search = search.value.trim().toLowerCase();
+    applyFilters();
+  });
+
+  document.getElementById("paper-filter-reset").addEventListener("click", () => {
+    state.year = state.venue = state.topic = "all";
+    state.search = "";
+    search.value = "";
+    document.querySelectorAll(".filter-group").forEach((group) => {
+      group.querySelectorAll(".filter-chip").forEach((chip) => {
+        chip.classList.toggle("active", chip.dataset.filterValue === "all");
+      });
+    });
+    applyFilters();
+  });
+});
+</script>

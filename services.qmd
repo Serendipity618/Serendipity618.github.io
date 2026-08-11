@@ -1,0 +1,25 @@
+---
+title: "Services"
+description: "Academic reviewer and professional service."
+toc: false
+---
+
+::: {.content-grid .service-grid}
+::: {.content-card .service-card}
+## Conference Reviewer
+
+- ACL Rolling Review (ARR), 2026
+- International Joint Conference on Neural Networks (IJCNN), 2023, 2024, and 2025
+- Pacific-Asia Conference on Knowledge Discovery and Data Mining (PAKDD), 2025
+- International Conference on Machine Learning and Applications (ICMLA), 2024
+:::
+
+::: {.content-card .service-card}
+## Journal Reviewer
+
+- ACM Transactions on Intelligent Systems and Technology (TIST), 2026
+- IEEE Transactions on Computational Social Systems
+- Concurrency and Computation: Practice and Experience
+- Intelligent Data Analysis
+:::
+:::

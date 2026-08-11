@@ -1,0 +1,47 @@
+---
+title: "Backdoor Attack Against One-Class Sequential Anomaly Detection Models"
+
+authors:
+  - He Cheng
+  - Shuhan Yuan
+
+date: "2024-04-25T00:00:00Z"
+
+publication: "In *Pacific-Asia Conference on Knowledge Discovery and Data Mining (PAKDD 2024)*"
+
+abstract: |
+  Deep anomaly detection on sequential data has garnered significant attention due to the wide application scenarios. However, deep learning-based models face a critical security threat – their vulnerability to backdoor attacks. In this paper, we explore compromising deep sequential anomaly detection models by proposing a novel backdoor attack strategy. The attack approach comprises two primary steps, trigger generation and backdoor injection. Trigger generation is to derive imperceptible triggers by crafting perturbed samples from the benign normal data, of which the perturbed samples are still normal. The backdoor injection is to properly inject the backdoor triggers to comprise the model only for the samples with triggers. The experimental results demonstrate the effectiveness of our proposed attack strategy by injecting backdoors on two well-established one-class anomaly detection models.
+
+summary: "Clean-label backdoor attack against one-class sequential anomaly detection models."
+
+tags:
+  - Anomaly Detection
+  - Backdoor Attacks
+  - Security
+
+links:
+  - type: pdf
+    url: "https://arxiv.org/pdf/2402.10283"
+  - type: code
+    url: "https://github.com/Serendipity618/BA-OCAD"
+
+include-after-body:
+  - ../../back-to-top.html
+  - ../../bibtex-copy.html
+
+---
+
+<div class="paper-citation-actions">
+<button type="button" class="bibtex-copy" aria-label="Copy BibTeX citation"><i class="bi bi-clipboard"></i><span>BibTeX</span></button>
+<script type="text/plain" class="paper-bibtex-data">@inproceedings{cheng2024backdoor,
+  author = {Cheng, He and Yuan, Shuhan},
+  title = {Backdoor Attack Against One-Class Sequential Anomaly Detection Models},
+  booktitle = {Advances in Knowledge Discovery and Data Mining},
+  series = {Lecture Notes in Computer Science},
+  volume = {14647},
+  year = {2024},
+  pages = {262--274},
+  doi = {10.1007/978-981-97-2259-4_20},
+  publisher = {Springer}
+}</script>
+</div>

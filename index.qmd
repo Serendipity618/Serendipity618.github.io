@@ -1,0 +1,96 @@
+---
+title: "He Cheng"
+description: "He Cheng is a postdoctoral researcher in biomedical informatics working on large language model reasoning, knowledge graphs, and multi-agent systems."
+toc: false
+css: homepage.css
+---
+
+::: {.hero}
+![](assets/avatar.png){.hero-photo alt="Portrait of He Cheng"}
+
+::: {.hero-copy}
+<div class="hero-kicker">Biomedical Informatics · Machine Learning · Knowledge Graphs</div>
+
+# He Cheng
+
+<div class="meta">Pronounced “Huh Chung” · he/him</div>
+
+<div class="hero-role">Postdoctoral Researcher in Biomedical Informatics<br><a href="https://medschool.cuanschutz.edu/dbmi">University of Colorado Anschutz Medical Campus</a></div>
+
+I am a machine learning researcher working on large language models, knowledge graphs, multi-agent systems, and trustworthy AI.
+
+::: {.profile-links}
+[Email](mailto:chenghe0618@outlook.com)
+[CV](files/He-Cheng-CV.pdf)
+[Google Scholar](https://scholar.google.com/citations?user=zqYwQ5UAAAAJ&hl=en)
+[GitHub](https://github.com/Serendipity618)
+[ORCID](https://orcid.org/0009-0009-6901-3778)
+[LinkedIn](https://www.linkedin.com/in/he-cheng-b49b71183)
+:::
+:::
+:::
+
+## About me
+
+He Cheng, Ph.D., is a Postdoctoral Researcher in the Department of Biomedical Informatics at the University of Colorado Anschutz Medical Campus. His current research focuses on scalable retrieval over large biomedical knowledge graphs and reinforcement learning for multi-agent clinical reasoning.
+
+His previous research focused on interpretable and robust anomaly detection, including local, global, counterfactual, and prototype-based explanations, as well as backdoor attacks against anomaly detection models. He earned a Ph.D. in Computer Science from Utah State University, an M.S. in Electrical and Computer Engineering from the State University of New York at Binghamton, and a B.E. in Mechanical Engineering from China University of Petroleum (East China).
+
+## My research
+
+I develop scalable methods for multi-hop retrieval over large biomedical knowledge graphs and integrate retrieved evidence with large language models for clinical applications. I also develop orchestrator-centered multi-agent systems, using reinforcement learning for agent selection, role assignment, and stopping decisions.
+
+My earlier work includes counterfactual explanations (CFDet), local and global explanations (GLEAD), prototype-based explanations, and backdoor attack frameworks (BLOG, BA-OCAD, and BadSAD) for anomaly detection.
+
+## Research interests
+
+::: {.content-grid}
+::: {.content-card}
+### Language models and biomedical applications
+
+Large language models, retrieval-augmented generation, and reliable machine learning for biomedical applications.
+:::
+
+::: {.content-card}
+### Knowledge graph reasoning
+
+Efficient, scalable, and interpretable multi-hop retrieval over large biomedical knowledge graphs.
+:::
+
+::: {.content-card}
+### Multi-agent systems
+
+Orchestrator-centered multi-agent systems and reinforcement learning for clinical reasoning.
+:::
+
+::: {.content-card}
+### Interpretable and robust ML
+
+Model transparency, anomaly detection, and robustness against backdoor attacks.
+:::
+:::
+
+## Recent highlights
+
+::: {.content-grid .highlights-grid}
+::: {.content-card}
+### LogosKG accepted to ACL 2026
+
+Our paper, “LogosKG: Hardware-Optimized Scalable and Interpretable Knowledge Graph Retrieval,” was accepted to the 64th Annual Meeting of the Association for Computational Linguistics.
+
+[Paper](https://aclanthology.org/2026.acl-long.1966/) · [Code](https://github.com/LARK-NLP-Lab/LogosKG) · [Online demo](https://lark-nlp-lab-logoskg.hf.space/)
+:::
+
+::: {.content-card}
+### BadSAD at IEEE Big Data 2025
+
+“BadSAD: Clean-Label Backdoor Attacks against Deep Semi-Supervised Anomaly Detection” appears in the proceedings of the 2025 IEEE International Conference on Big Data.
+
+[Paper](https://ieeexplore.ieee.org/abstract/document/11402072)
+:::
+:::
+
+::: {.home-actions}
+[View all papers →](publications.qmd){.action-link}
+[View all news →](news.qmd){.action-link}
+:::

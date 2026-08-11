@@ -1,0 +1,46 @@
+---
+title: "Explainable Sequential Anomaly Detection via Prototypes"
+
+authors:
+  - He Cheng
+  - Depeng Xu
+  - Shuhan Yuan
+
+date: "2023-06-18T00:00:00Z"
+
+publication: "In *International Joint Conference on Neural Networks (IJCNN 2023)*"
+
+abstract: |
+  Sequential anomaly detection has received more and more attention because of its wide applications in various domains, such as debugging system failures via logs. Researchers have recently proposed many deep learning-based approaches for sequential anomaly detection. However, these approaches work as black-boxed models, not providing explanations for detected anomalies. On the other hand, explainability is a critical requirement to build trustworthiness in detection results. Moreover, domain experts would like to learn why a sequence is labeled as an anomaly. To overcome this challenge, in this paper, we propose a framework for Explainable Sequential Anomaly Detection (ESAD) in a semi-supervised setting. As there are various normal and abnormal behaviors in sequential data, ESAD derives multiple prototypes to describe diverse normal and abnormal sequences. Each prototype can encode one type of normal or abnormal behavior. Given a new sequence, if the sequence is similar to an abnormal prototype, the sequence will be detected as abnormal. After decoding the abnormal prototype as a prototypical sequence, domain experts can further understand the newly detected abnormal sequence by examining the prototypical sequence. We conduct experiments on one log dataset and two text datasets. Experimental results including quantitative and qualitative analysis on three datasets show the effectiveness of our model.
+
+summary: "Prototype-based explainable sequential anomaly detection."
+
+tags:
+  - Anomaly Detection
+  - Explainability
+  - Prototypes
+
+links:
+  - type: pdf
+    url: "https://ieeexplore.ieee.org/iel7/10190990/10190992/10191703.pdf"
+  - type: code
+    url: "https://github.com/Serendipity618/EASD"
+
+include-after-body:
+  - ../../back-to-top.html
+  - ../../bibtex-copy.html
+
+---
+
+<div class="paper-citation-actions">
+<button type="button" class="bibtex-copy" aria-label="Copy BibTeX citation"><i class="bi bi-clipboard"></i><span>BibTeX</span></button>
+<script type="text/plain" class="paper-bibtex-data">@inproceedings{cheng2023explainable,
+  author = {Cheng, He and Xu, Depeng and Yuan, Shuhan},
+  title = {Explainable Sequential Anomaly Detection via Prototypes},
+  booktitle = {2023 International Joint Conference on Neural Networks (IJCNN)},
+  year = {2023},
+  pages = {1--8},
+  doi = {10.1109/IJCNN54540.2023.10191703},
+  publisher = {IEEE}
+}</script>
+</div>

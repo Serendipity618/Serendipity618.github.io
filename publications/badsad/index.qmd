@@ -1,0 +1,49 @@
+---
+title: "BadSAD: Clean-Label Backdoor Attacks against Deep Semi-Supervised Anomaly Detection"
+
+authors:
+  - He Cheng
+  - Depeng Xu
+  - Shuhan Yuan
+
+date: "2025-12-08T00:00:00Z"
+
+publication: "In *2025 IEEE International Conference on Big Data (IEEE BigData 2025)*"
+
+abstract: |
+  Image anomaly detection (IAD) is essential in applications such as industrial inspection, medical imaging, and security. Despite the progress achieved with deep learning models like Deep Semi-Supervised Anomaly Detection (DeepSAD), these models remain susceptible to backdoor attacks, presenting significant security challenges. In this paper, we introduce BadSAD, a novel backdoor attack framework specifically designed to target DeepSAD models. Our approach involves two key phases: trigger injection, where subtle triggers are embedded into normal images, and latent space manipulation, which positions and clusters the poisoned images near normal images to make the triggers appear benign. Extensive experiments on benchmark datasets validate the effectiveness of our attack strategy, highlighting the severe risks that backdoor attacks pose to deep learning-based anomaly detection systems.
+
+summary: "Clean-label backdoor attacks exposing security risks in deep semi-supervised anomaly detection."
+
+tags:
+  - Anomaly Detection
+  - Backdoor Attacks
+  - Trustworthy AI
+  - Computer Vision
+
+links:
+  - type: custom
+    label: IEEE Xplore
+    url: "https://ieeexplore.ieee.org/abstract/document/11402072"
+    icon: academic-cap
+  - type: pdf
+    url: "https://arxiv.org/pdf/2412.13324"
+
+include-after-body:
+  - ../../back-to-top.html
+  - ../../bibtex-copy.html
+
+---
+
+<div class="paper-citation-actions">
+<button type="button" class="bibtex-copy" aria-label="Copy BibTeX citation"><i class="bi bi-clipboard"></i><span>BibTeX</span></button>
+<script type="text/plain" class="paper-bibtex-data">@inproceedings{cheng2025badsad,
+  author = {Cheng, He and Xu, Depeng and Yuan, Shuhan},
+  title = {{BadSAD}: Clean-Label Backdoor Attacks Against Deep Semi-Supervised Anomaly Detection},
+  booktitle = {2025 IEEE International Conference on Big Data (BigData)},
+  year = {2025},
+  pages = {838--845},
+  doi = {10.1109/BigData66926.2025.11402072},
+  publisher = {IEEE}
+}</script>
+</div>

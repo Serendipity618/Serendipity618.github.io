@@ -1,0 +1,15 @@
+---
+title: "Orchestrator-Centered Multi-Agent Systems for Clinical Reasoning"
+date: 2026-01-01
+tags:
+  - Multi-Agent Systems
+  - Large Language Models
+  - Reinforcement Learning
+  - Clinical AI
+---
+
+## Orchestrator-Centered Multi-Agent Systems for Clinical Reasoning
+
+This project develops a multi-agent clinical reasoning system in which specialized large language model agents generate, review, and refine diagnostic predictions through structured multi-step interactions.
+
+The central orchestrator learns how to select agents, assign roles, and determine when to stop. The project investigates reinforcement learning methods based on diagnostic performance and inference cost, with the goal of supporting systems aligned with clinical decision-support workflows.
