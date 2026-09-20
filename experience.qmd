@@ -8,7 +8,7 @@ toc: true
 
 ### Postdoctoral Researcher — University of Colorado Anschutz Medical Campus
 
-*July 2025–present · Aurora, Colorado*
+<div class="entry-date">July 2025 – Present · Aurora, Colorado</div>
 
 - Develop scalable methods for multi-hop retrieval over large biomedical knowledge graphs and integrate retrieved evidence with large language models for clinical applications.
 - Develop orchestrator-centered multi-agent systems for clinical prediction, including reinforcement learning for agent selection, role assignment, and stopping decisions.
@@ -16,13 +16,13 @@ toc: true
 
 ### Volunteer Research Assistant — Utah State University
 
-*January 2025–June 2025 · Logan, Utah*
+<div class="entry-date">January 2025 – June 2025 · Logan, Utah</div>
 
 - Collaborated with Dr. Shuhan Yuan to finalize academic publications and extend experimental evaluations of deep anomaly detection models.
 
 ### Graduate Research Assistant — Utah State University
 
-*August 2020–December 2024 · Logan, Utah*
+<div class="entry-date">August 2020 – December 2024 · Logan, Utah</div>
 
 - Designed and implemented machine-learning pipelines for log anomaly detection using PyTorch and TensorFlow.
 - Developed counterfactual explanations, global and local interpretability, and prototype-based insights for deep anomaly-detection systems.
@@ -30,7 +30,7 @@ toc: true
 
 ### Graduate Teaching Assistant — Utah State University
 
-*August 2021–December 2024 · Logan, Utah*
+<div class="entry-date">August 2021 – December 2024 · Logan, Utah</div>
 
 - Assisted in teaching and grading CS 5665 Introduction to Data Science.
 - Assisted in teaching and grading CS 5080/CS 6665 Data Mining.
@@ -39,21 +39,21 @@ toc: true
 
 ### Ph.D. in Computer Science — Utah State University
 
-*August 2020–December 2024*
+<div class="entry-date">August 2020 – December 2024</div>
 
 - **Advisor:** Dr. Shuhan Yuan
 - **Dissertation:** *Interpretable and Robust Deep Anomaly Detection*
 
 ### M.S. in Electrical and Computer Engineering — State University of New York at Binghamton
 
-*August 2018–May 2020*
+<div class="entry-date">August 2018 – May 2020</div>
 
 - **Advisor:** Dr. Jian Li
 - **Thesis:** *Consensus-Based Quickest Change Detection in IoT Systems*
 
 ### B.E. in Mechanical Engineering — China University of Petroleum (East China)
 
-*September 2012–June 2016*
+<div class="entry-date">September 2012 – June 2016</div>
 
 ## Technical skills
 

@@ -1,4 +1,16 @@
 - section: Peer-reviewed Conference Papers
+  authors: "Saksham Khatwani, **He Cheng**, Majid Afshar, Dmitriy Dligach, and Yanjun Gao"
+  year: 2026
+  date: 2026-08-27 # First arXiv submission; used for sorting, not an acceptance date.
+  title: "Surgical Alignment in Knowledge Graph Training for Clinical Diagnosis with Large Language Models"
+  path: https://arxiv.org/abs/2608.26587
+  journal: "Findings of EMNLP 2026 (accepted)"
+  pdf: https://arxiv.org/pdf/2608.26587
+  github: https://github.com/LARK-NLP-Lab/Surgical-Alignment
+  venue: Findings of EMNLP 2026
+  topics: [Knowledge Graphs, Large Language Models, Biomedical NLP]
+
+- section: Peer-reviewed Conference Papers
   authors: "**He Cheng**, Yifu Wu, Saksham Khatwani, Maya Kruse, Dmitriy Dligach, Timothy A. Miller, Majid Afshar, and Yanjun Gao"
   year: 2026
   date: 2026-07-01

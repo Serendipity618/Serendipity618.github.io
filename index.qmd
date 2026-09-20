@@ -74,19 +74,19 @@ Model transparency, anomaly detection, and robustness against backdoor attacks.
 
 ::: {.content-grid .highlights-grid}
 ::: {.content-card}
+### Surgical Alignment accepted to Findings of EMNLP 2026
+
+Our paper, “Surgical Alignment in Knowledge Graph Training for Clinical Diagnosis with Large Language Models,” by Saksham Khatwani, He Cheng, Majid Afshar, Dmitriy Dligach, and Yanjun Gao, has been accepted to Findings of EMNLP 2026.
+
+[Paper](https://arxiv.org/abs/2608.26587) · [Code](https://github.com/LARK-NLP-Lab/Surgical-Alignment)
+:::
+
+::: {.content-card}
 ### LogosKG accepted to ACL 2026
 
 Our paper, “LogosKG: Hardware-Optimized Scalable and Interpretable Knowledge Graph Retrieval,” was accepted to the 64th Annual Meeting of the Association for Computational Linguistics.
 
 [Paper](https://aclanthology.org/2026.acl-long.1966/) · [Code](https://github.com/LARK-NLP-Lab/LogosKG) · [Online demo](https://lark-nlp-lab-logoskg.hf.space/)
-:::
-
-::: {.content-card}
-### BadSAD at IEEE Big Data 2025
-
-“BadSAD: Clean-Label Backdoor Attacks against Deep Semi-Supervised Anomaly Detection” appears in the proceedings of the 2025 IEEE International Conference on Big Data.
-
-[Paper](https://ieeexplore.ieee.org/abstract/document/11402072)
 :::
 :::
 

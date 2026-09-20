@@ -4,8 +4,6 @@ description: "Research projects in biomedical NLP, knowledge graphs, multi-agent
 toc: false
 ---
 
-<p class="section-lede">My research spans efficient knowledge graph retrieval, multi-agent clinical reasoning, and interpretable and robust anomaly detection.</p>
-
 ::: {.projects-page .content-grid}
 ::: {.content-card}
 ### [Orchestrator-Centered Multi-Agent Systems for Clinical Reasoning](projects/multi-agent-clinical-reasoning/)

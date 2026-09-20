@@ -7,7 +7,7 @@ authors:
   - Depeng Xu
   - Shuhan Yuan
 
-date: '2021-12-15T00:00:00Z'
+date: '2021-12-15'
 
 publication: "In *IEEE International Conference on Big Data (Big Data 2021)*"
 

@@ -6,7 +6,7 @@ authors:
   - Depeng Xu
   - Shuhan Yuan
 
-date: "2025-04-25T00:00:00Z"
+date: "2025-04-25"
 
 publication: "In *Companion Proceedings of the ACM Web Conference 2025*"
 

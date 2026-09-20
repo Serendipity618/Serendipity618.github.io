@@ -5,7 +5,7 @@ authors:
   - He Cheng
   - Shuhan Yuan
 
-date: "2024-04-25T00:00:00Z"
+date: "2024-04-25"
 
 publication: "In *Pacific-Asia Conference on Knowledge Discovery and Data Mining (PAKDD 2024)*"
 

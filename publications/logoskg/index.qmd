@@ -11,7 +11,7 @@ authors:
   - Majid Afshar
   - Yanjun Gao
 
-date: "2026-07-01T00:00:00Z"
+date: "2026-07-01"
 
 publication: "In *Proceedings of the 64th Annual Meeting of the Association for Computational Linguistics (ACL 2026)*"
 

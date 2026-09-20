@@ -7,7 +7,7 @@ authors:
   - Shuhan Yuan
   - Xintao Wu
 
-date: "2024-08-22T00:00:00Z"
+date: "2024-08-22"
 
 publication: "In *European Conference on Machine Learning and Principles and Practice of Knowledge Discovery in Databases (ECML PKDD 2024)*"
 

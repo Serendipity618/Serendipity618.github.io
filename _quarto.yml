@@ -1,6 +1,8 @@
 project:
   type: website
   output-dir: docs
+  resources:
+    - "assets/fonts/*"
   render:
     - "*.qmd"
     - "projects/**/*.qmd"
@@ -46,6 +48,7 @@ format:
       light: cosmo
       dark: darkly
     css: styles.css
+    date-format: "MMMM YYYY"
     toc: true
     toc-depth: 2
     link-external-newwindow: true
